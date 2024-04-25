@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CocktailServiceService } from '../../services/cocktail-service.service';
+import { CoctelesInterface } from '../../interfaces/cocteles-interface';
 
 @Component({
   selector: 'app-header',
@@ -7,6 +9,6 @@ import { Component } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
-export class HeaderComponent {
-
+export class HeaderComponent{
+ 
 }
