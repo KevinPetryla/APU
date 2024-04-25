@@ -1,0 +1,104 @@
+{
+    "titulo" : "Menú a la carta",
+    "secciones" : [
+        {
+            "tituloSeccion" : "Entrantes",
+            "platos" : [
+                {
+                    "nombre" : "Samosas de pollo y de verduras",
+                    "imagen" : "RestauranteApu/src/assets/images/samosaCarta.jpg",
+                    "precio" : "6.00",
+                    "descripcion" : "Dos selecciones de Samosas, unas de delicioso pollo al Curry y otras de patata y verduras al Curry"
+                },
+                {
+                    "nombre" : "Conjunto de chutneys",
+                    "imagen" : "RestauranteApu/src/assets/images/chutneysCarta.jpg",
+                    "precio" : "4.00",
+                    "descripcion" : "Un dulce Chutney de mango, un refrescante Chutney de menta y cilantro, y para los más valientes, un Chutney de chile picante."
+                },
+                {
+                    "nombre" : "Balti de langostinos",
+                    "imagen" : "RestauranteApu/src/assets/images/baltiLangostinosCarta.jpg",
+                    "precio" : "7.00",
+                    "descripcion" : "Langostinos salteados en Wok con cebolla morada, junto a una crema picante de ají, tomate y leche de coco."
+                },
+                {
+                    "nombre" : "Ensalada Kachumber",
+                    "imagen" : "RestauranteApu/src/assets/images/ensaladaCarta.jpg",
+                    "precio" : "7.00",
+                    "descripcion" : "Ensalada refrescante con pepino impregnado de tomate y lima sobre una crema de cebolla roja encurtida, y acabada con vinagreta de cilantro."
+                },
+                {
+                    "nombre" : "Pan Naan",
+                    "imagen" : "RestauranteApu/src/assets/images/naanCarta.jpg",
+                    "precio" : "3.00",
+                    "descripcion" : "Pan Naan casero, pintado con nuestra mantequilla de ajo y cilantro fresco del día."
+                }
+            ]
+        },{
+            "tituloSeccion" : "Principales",
+            "platos" : [
+                {
+                    "nombre" : "Paneer Korma",
+                    "imagen" : "RestauranteApu/src/assets/images/paneerCarta.jpg",
+                    "precio" : "11.00",
+                    "descripcion" : "Queso Paneer indio servido con una sabrosa salsa Korma de leche de coco y anacardos."
+                },
+                {
+                    "nombre" : "Lamb Masala",
+                    "imagen" : "RestauranteApu/src/assets/images/lambMasalaCarta.jpg",
+                    "precio" : "13.00",
+                    "descripcion" : "Cordero marinado en yogur y especias Masala, cocinado en horno Tandoori y servido con almendra tostada machacada y cilantro fresco."
+                },
+                {
+                    "nombre" : "Butter Chicken",
+                    "imagen" : "RestauranteApu/src/assets/images/butterChickenCarta.jpg",
+                    "precio" : "10.50",
+                    "descripcion" : "Pollo macerado y sasado en horno Tandoori, bañado en una deliciosa salsa de mantequilla, puré de tomate y especias Garam Masala."
+                },
+                {
+                    "nombre" : "Rape Mappas Curry",
+                    "imagen" : "RestauranteApu/src/assets/images/mapasCurryCarta.jpg",
+                    "precio" : "13.00",
+                    "descripcion" : "Rape estofado en un potente caldo a base de curry, cebolla y chile verde, con tomate fresco y leche de coco para terminar."
+                }
+            ]
+        },{
+            "tituloSeccion" : "Postres",
+            "platos" : [
+                {
+                    "nombre" : "Sorbete Chai Masala",
+                    "imagen" : "RestauranteApu/src/assets/images/sorbeteCarta.jpg",
+                    "precio" : "6.00",
+                    "descripcion" : "Refrescante sorbete de diferentes especias, té y hiervas aromáticas , con ligeros toques de miel y almendras"
+                },
+                {
+                    "nombre" : "Kulfi de pistacho",
+                    "imagen" : "RestauranteApu/src/assets/images/kulfiCarta.jpg",
+                    "precio" : "6.00",
+                    "descripcion" : "Helado indio de pistacho con Kaju Katli, Yalebi y crema de café Chai."
+                },
+                {
+                    "nombre" : "Kheer",
+                    "imagen" : "RestauranteApu/src/assets/images/kheerCarta.jpg",
+                    "precio" : "6.00",
+                    "descripcion" : "Copa de Kheer con Gulab Jamun y crema de té de cardamomo con anacardos tostados machacados."
+                }
+            ]
+        },{
+            "tituloSeccion" : "Café y té",
+            "platos" : [
+                {
+                    "nombre" : "Café Monsooned Malabar",
+                    "imagen" : "RestauranteApu/src/assets/images/cafeCarta.jpg",
+                    "precio" : "3.00"
+                },
+                {
+                    "nombre" : "Té negro Darjeeling",
+                    "imagen" : "RestauranteApu/src/assets/images/teCarta.jpg",
+                    "precio" : "3.00"
+                }
+            ]
+        }
+    ]
+}
