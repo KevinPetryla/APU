@@ -6,11 +6,12 @@ import { CartaComponent } from './pages/carta/carta.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { IniciosesionComponent } from './pages/iniciosesion/iniciosesion.component';
 import { RegistroComponent } from './pages/registro/registro.component';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, ContactoComponent, CartaComponent, IniciosesionComponent, RegistroComponent],
+  imports: [RouterOutlet, HeaderComponent, ContactoComponent, CartaComponent, IniciosesionComponent, RegistroComponent, InicioComponent, NavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
