@@ -7,6 +7,9 @@
   box-sizing: border-box;
 }
 
+
+/* RECORDAD QUE NO FUNCIONA EN BOTONES DE BOOTSTRAP. EL ESTILO WARNING DEL PROPIO BOOTSTRAP ES MUY BUENA SOLUCION */
+
 .custom-orange-color{
   color: #D3AC34;
 }
@@ -34,4 +37,6 @@
 .poppins-text{
   font-family: 'Poppins', sans-serif;
 }
+
+/* RECORDAD QUE NO FUNCIONA EN BOTONES DE BOOTSTRAP. EL ESTILO WARNING DEL PROPIO BOOTSTRAP ES MUY BUENA SOLUCION */
 
