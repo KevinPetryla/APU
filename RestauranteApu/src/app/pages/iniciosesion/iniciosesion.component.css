@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
 
 * {
 	box-sizing: border-box;
@@ -8,22 +8,24 @@
 }
 
 body {
-	background: linear-gradient(90deg, #C7C5F4, #d3ac34);		
+	background: linear-gradient(90deg, #C7C5F4, #ffffff);		
 }
 
 .container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 100vh;
+	padding-left:50%;
+	padding-right: 50%;
+	margin-top: 5%;
 }
 
 .screen {		
-	background: linear-gradient(90deg, #000000, #D3AC34);		
+	background: linear-gradient(90deg, #000000, #d3ac34);		
 	position: relative;	
 	height: 600px;
 	width: 360px;	
-	box-shadow: 0px 0px 24px #0f0f0f;
+	box-shadow: 0px 0px 24px #f1cb1d;
 }
 
 .screen__content {
@@ -60,7 +62,7 @@ body {
 .screen__background__shape2 {
 	height: 220px;
 	width: 220px;
-	background: #131313;	
+	background: #a58524;	
 	top: -172px;
 	right: 0;	
 	border-radius: 32px;
@@ -84,16 +86,18 @@ body {
 	border-radius: 60px;
 }
 
+.fields{
+    margin-top: -25px;
+    margin-bottom: 120px;
+}
 .login {
 	width: 320px;
 	padding: 30px;
 	padding-top: 156px;
-    padding-bottom: 50px;
 }
 
-.login__field1 {
-    
-	padding: 15px;	
+.login__field {
+	padding: 20px 0px;	
 	position: relative;	
 }
 
@@ -108,7 +112,6 @@ body {
 	border-bottom: 2px solid #000000;
 	background: none;
 	padding: 10px;
-    padding-top: 5px;
 	padding-left: 24px;
 	font-weight: 700;
 	width: 75%;
@@ -119,7 +122,7 @@ body {
 .login__input:focus,
 .login__input:hover {
 	outline: none;
-	border-bottom-color: #D3AC34;
+	border-bottom-color: #ffbf00;
 }
 
 .login__submit {
@@ -143,7 +146,7 @@ body {
 .login__submit:active,
 .login__submit:focus,
 .login__submit:hover {
-	border-color: #D3AC34;
+	border-color: #ffbf00;
 	outline: none;
 }
 
@@ -161,6 +164,8 @@ body {
 	bottom: 0px;
 	right: 0px;
 	color: #000000;
+	padding-top: 40px;
+    padding-right: 30px;
 }
 
 .social-login h6:hover{
