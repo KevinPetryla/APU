@@ -51,7 +51,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2017-09-07 21:42:09"
+      "dateModified": "2017-09-07 21:42:09",
+      "price" : 6
     },
     {
       "idDrink": "13501",
@@ -104,7 +105,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2016-08-31 19:32:08"
+      "dateModified": "2016-08-31 19:32:08",
+      "price" : 7
     },
     {
       "idDrink": "17225",
@@ -157,7 +159,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2017-09-07 22:05:06"
+      "dateModified": "2017-09-07 22:05:06",
+      "price" : 6.5
     },
     {
       "idDrink": "14610",
@@ -210,7 +213,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2016-11-15 11:28:37"
+      "dateModified": "2016-11-15 11:28:37",
+      "price" : 6.5
     },
     {
       "idDrink": "17837",
@@ -263,7 +267,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
-      "dateModified": "2016-09-02 11:29:29"
+      "dateModified": "2016-09-02 11:29:29",
+      "price" : 8
     },
     {
       "idDrink": "13938",
@@ -316,7 +321,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2017-04-24 22:00:19"
+      "dateModified": "2017-04-24 22:00:19",
+      "price" : 6
     },
     {
       "idDrink": "17833",
@@ -369,7 +375,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
-      "dateModified": "2016-09-02 11:16:58"
+      "dateModified": "2016-09-02 11:16:58",
+      "price" : 8
     },
     {
       "idDrink": "15266",
@@ -422,7 +429,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2017-04-24 22:22:11"
+      "dateModified": "2017-04-24 22:22:11",
+      "price" : 6
     },
     {
       "idDrink": "15106",
@@ -475,7 +483,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2016-07-18 22:13:35"
+      "dateModified": "2016-07-18 22:13:35",
+      "price" : 7
     },
     {
       "idDrink": "17839",
@@ -528,7 +537,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
-      "dateModified": "2016-09-01 10:05:34"
+      "dateModified": "2016-09-01 10:05:34",
+      "price" : 6.5
     },
     {
       "idDrink": "17835",
@@ -581,7 +591,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
-      "dateModified": "2016-04-29 09:44:25"
+      "dateModified": "2016-04-29 09:44:25",
+      "price" : 7
     },
     {
       "idDrink": "11023",
@@ -634,7 +645,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2017-01-02 20:16:21"
+      "dateModified": "2017-01-02 20:16:21",
+      "price" : 7
     },
     {
       "idDrink": "17228",
@@ -687,7 +699,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2017-09-07 22:38:20"
+      "dateModified": "2017-09-07 22:38:20",
+      "price" : 8
     },
     {
       "idDrink": "11046",
@@ -740,7 +753,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2017-09-02 23:02:44"
+      "dateModified": "2017-09-02 23:02:44",
+      "price" : 8
     },
     {
       "idDrink": "17836",
@@ -793,7 +807,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
-      "dateModified": "2016-09-02 11:26:16"
+      "dateModified": "2016-09-02 11:26:16",
+      "price" : 9
     },
     {
       "idDrink": "17840",
@@ -846,7 +861,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
-      "dateModified": "2017-09-07 21:44:05"
+      "dateModified": "2017-09-07 21:44:05",
+      "price" : 7
     },
     {
       "idDrink": "17180",
@@ -899,7 +915,8 @@
       "strImageSource": "https://www.flickr.com/photos/mstyne/27859363080/in/dateposted/",
       "strImageAttribution": "Michael Styne https://www.flickr.com/photos/mstyne/",
       "strCreativeCommonsConfirmed": "Yes",
-      "dateModified": "2016-11-04 09:55:28"
+      "dateModified": "2016-11-04 09:55:28",
+      "price" : 8
     },
     {
       "idDrink": "15182",
@@ -952,7 +969,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2017-04-24 22:18:22"
+      "dateModified": "2017-04-24 22:18:22",
+      "price" : 8.5
     },
     {
       "idDrink": "16311",
@@ -1005,7 +1023,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2016-11-15 11:24:22"
+      "dateModified": "2016-11-15 11:24:22",
+      "price" : 7
     },
     {
       "idDrink": "12560",
@@ -1058,7 +1077,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2016-07-18 22:07:32"
+      "dateModified": "2016-07-18 22:07:32",
+      "price" : 6
     },
     {
       "idDrink": "13162",
@@ -1111,7 +1131,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2016-08-31 19:22:57"
+      "dateModified": "2016-08-31 19:22:57",
+      "price" : 9
     },
     {
       "idDrink": "11014",
@@ -1164,7 +1185,8 @@
       "strImageSource": "https://www.pxfuel.com/en/free-photo-expqp",
       "strImageAttribution": "pxfuel.com",
       "strCreativeCommonsConfirmed": "Yes",
-      "dateModified": "2016-11-04 09:50:39"
+      "dateModified": "2016-11-04 09:50:39",
+      "price" : 7
     },
     {
       "idDrink": "12756",
@@ -1217,7 +1239,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2017-02-20 15:02:08"
+      "dateModified": "2017-02-20 15:02:08",
+      "price" : 7.5
     },
     {
       "idDrink": "11021",
@@ -1270,7 +1293,8 @@
       "strImageSource": null,
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
-      "dateModified": "2017-01-02 20:12:14"
+      "dateModified": "2017-01-02 20:12:14",
+      "price" : 8
     },
     {
       "idDrink": "15941",
@@ -1323,7 +1347,8 @@
       "strImageSource": "https://commons.wikimedia.org/wiki/File:Martini_Americano.jpg",
       "strImageAttribution": "Author - Cher37 https://commons.wikimedia.org/wiki/File:Martini_Americano.jpg",
       "strCreativeCommonsConfirmed": "Yes",
-      "dateModified": "2016-11-04 09:52:06"
+      "dateModified": "2016-11-04 09:52:06",
+      "price" : 10
     }
   ]
 }

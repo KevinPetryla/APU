@@ -54,5 +54,6 @@ export interface CoctelesInterface {
     strImageAttribution?: string
     strCreativeCommonsConfirmed: string
     dateModified: string
+    price: number
   }
   
