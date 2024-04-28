@@ -10,11 +10,12 @@ import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { DeliveryComponent } from './pages/delivery/delivery.component';
 import { CartComponent } from './pages/cart/cart.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, ContactoComponent, CartaComponent, IniciosesionComponent, RegistroComponent, InicioComponent, NavbarComponent, AboutusComponent, DeliveryComponent, CartComponent],
+  imports: [RouterOutlet, HeaderComponent, ContactoComponent, CartaComponent, IniciosesionComponent, RegistroComponent, InicioComponent, NavbarComponent, AboutusComponent, DeliveryComponent, CartComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
