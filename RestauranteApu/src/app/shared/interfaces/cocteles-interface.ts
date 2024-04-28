@@ -55,5 +55,6 @@ export interface CoctelesInterface {
     strCreativeCommonsConfirmed: string
     dateModified: string
     price: number
+    description : string
   }
   

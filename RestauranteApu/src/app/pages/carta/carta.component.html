@@ -1,34 +1,92 @@
-
-<section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Album example</h1>
-        <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <div class="album py-5 bg-body-tertiary">
-    <div class="container">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        @for (coctel of cocteles.drinks; track $index) {
-          <div class="col">
-            <img src={{coctel.strDrinkThumb}} class="img-fluid" alt="123">
-            <div class="card-body">
-              <p class="card-text">{{coctel.strDrink}}</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">PEDIR</button>
-                </div>
-                <small class="text-body-secondary">{{coctel.strCategory}}</small>
-              </div>
+<div
+  class="custom-orange-color bg-custom-dark-color montserrat-text text-center pt-5"
+>
+  <h1 class="display-4 pb-5 cinzel-text">{{ carta.titulo }}</h1>
+  <div class="row row-cols-1 g-5 justify-content-center">
+    @for (seccion of carta.secciones; track $index) {
+    <h1 class="pb-4 cinzel-text">{{ seccion.tituloSeccion }}</h1>
+    <div
+      class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly"
+      style="width: 70%"
+    >
+      @for (plato of seccion.platos; track $index) {
+      <div class="col p-4">
+        <div class="card h-100">
+          <img src="{{ plato.imagen }}" class="card-img-top" alt="..." />
+          <div class="card-body bg-custom-dark-color">
+            <div class="col d-flex align-items-center border-bottom">
+              <h4 class="custom-orange-color card-title col-7 fw-bolder pe-2">
+                {{ plato.nombre }}
+              </h4>
+              <h4
+                class="custom-orange-color card-title col-5 rounded-pill border"
+              >
+                {{ plato.precio }}€
+              </h4>
             </div>
+            <p class="card-text custom-orange-color fs-5 p-3">
+              {{ plato.descripcion }}
+            </p>
+          </div>
+          <div
+            class="btn custom-orange btn border-top"
+            (click)="Add(plato.nombre, plato.precio)"
+          >
+            <h5 class="fw-bold">PEDIR</h5>
+          </div>
         </div>
-        }
       </div>
+      }
+    </div>
+    }
+    <h1 class="pb-4">Cocteles</h1>
+    <div
+      class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly"
+      style="width: 70%"
+    >
+      @for (coctel of cocteles.drinks; track $index) {
+
+      <div class="col p-4">
+        <div class="card h-100">
+          <img
+            src="{{ coctel.strDrinkThumb }}"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body bg-custom-dark-color">
+            <div class="col d-flex align-items-center border-bottom">
+              <h4 class="custom-orange-color card-title col-7 fw-bolder pe-2">
+                {{ coctel.strDrink }}
+              </h4>
+              <h4
+                class="custom-orange-color card-title col-5 rounded-pill border"
+              >
+                {{ coctel.price }}€
+              </h4>
+            </div>
+            <p class="card-text custom-orange-color fs-5 p-3">
+              {{ coctel.description }}
+            </p>
+          </div>
+          <div
+            class="btn custom-orange btn border-top"
+            (click)="Add(coctel.strDrink, coctel.price)"
+          >
+            <h5 class="fw-bold">PEDIR</h5>
+          </div>
+        </div>
+      </div>
+      }
     </div>
   </div>
+  <div class="d-flex row justify-content-center mt-5 py-5">
+    <div class="display-5">RESUMEN DE PEDIDO</div>
+    <ul class="d-grid justify-content-center list-group fs-4 p-3">
+      @for (pedido of listaPlatos; track $index) {
+      <li class="list-group-item text-center mb-3">
+        {{ pedido.nombre }} {{ pedido.precio }}
+      </li>
+      }
+    </ul>
+  </div>
+</div>

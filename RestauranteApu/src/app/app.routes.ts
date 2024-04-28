@@ -7,6 +7,7 @@ import { RegistroComponent } from './pages/registro/registro.component';
 import { PageNotFoundComponentComponent } from './pages/page-not-found-component/page-not-found-component.component';
 import { Component } from '@angular/core';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
+import { CartaComponent } from './pages/carta/carta.component';
 
 export const routes: Routes = [
     {
@@ -42,6 +43,10 @@ export const routes: Routes = [
         path: "aboutus",
         title: "Sobre nosotros",
         component: AboutusComponent
+    },{
+        path: "carta",
+        title: "Carta",
+        component: CartaComponent
     },
     {
         path: "**",

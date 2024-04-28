@@ -52,7 +52,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2017-09-07 21:42:09",
-      "price" : 6
+      "price" : 6,
+      "description" : "Un cóctel clásico con un toque de especias y un sabor audaz."
     },
     {
       "idDrink": "13501",
@@ -106,7 +107,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2016-08-31 19:32:08",
-      "price" : 7
+      "price" : 7,
+      "description" : "Una mezcla refrescante de almendra, bayas y cítricos."
     },
     {
       "idDrink": "17225",
@@ -160,7 +162,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2017-09-07 22:05:06",
-      "price" : 6.5
+      "price" : 6.5,
+      "description" : " Una bebida ligera y efervescente con un toque cítrico."
     },
     {
       "idDrink": "14610",
@@ -214,7 +217,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2016-11-15 11:28:37",
-      "price" : 6.5
+      "price" : 6.5,
+      "description" : "Un cóctel vibrante y ácido con una explosión de sabores."
     },
     {
       "idDrink": "17837",
@@ -268,7 +272,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
       "dateModified": "2016-09-02 11:29:29",
-      "price" : 8
+      "price" : 8,
+      "description" : "Una combinación suave de licor de manzana y especias."
     },
     {
       "idDrink": "13938",
@@ -322,7 +327,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2017-04-24 22:00:19",
-      "price" : 6
+      "price" : 6,
+      "description" : "Un cóctel dulce y fuerte con notas de almendra y cítricos."
     },
     {
       "idDrink": "17833",
@@ -376,7 +382,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
       "dateModified": "2016-09-02 11:16:58",
-      "price" : 8
+      "price" : 8,
+      "description" : "Una opción refrescante con jugo de manzana y un toque de licor."
     },
     {
       "idDrink": "15266",
@@ -430,7 +437,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2017-04-24 22:22:11",
-      "price" : 6
+      "price" : 6,
+      "description" : "Un cóctel sofisticado con un equilibrio perfecto de dulzura y acidez."
     },
     {
       "idDrink": "15106",
@@ -484,7 +492,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2016-07-18 22:13:35",
-      "price" : 7
+      "price" : 7,
+      "description" : "Una mezcla tropical con piña y coco, perfecta para una escapada."
     },
     {
       "idDrink": "17839",
@@ -538,7 +547,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
       "dateModified": "2016-09-01 10:05:34",
-      "price" : 6.5
+      "price" : 6.5,
+      "description" : "Una experiencia de sabor intrigante con una mezcla de frutas y licores exóticos."
     },
     {
       "idDrink": "17835",
@@ -592,7 +602,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
       "dateModified": "2016-04-29 09:44:25",
-      "price" : 7
+      "price" : 7,
+      "description" : "Un cóctel ahumado con un toque de bourbon y jarabe de arce."
     },
     {
       "idDrink": "11023",
@@ -646,7 +657,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2017-01-02 20:16:21",
-      "price" : 7
+      "price" : 7,
+      "description" : "Una bebida con inspiración mediterránea, refrescante y llena de sabor."
     },
     {
       "idDrink": "17228",
@@ -700,7 +712,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2017-09-07 22:38:20",
-      "price" : 8
+      "price" : 8,
+      "description" : "Una combinación equilibrada de licores y jugos de frutas, perfecta para cualquier ocasión."
     },
     {
       "idDrink": "11046",
@@ -754,7 +767,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2017-09-02 23:02:44",
-      "price" : 8
+      "price" : 8,
+      "description" : " Una variante del clásico Sidecar, con un toque de manzana fresca."
     },
     {
       "idDrink": "17836",
@@ -808,7 +822,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
       "dateModified": "2016-09-02 11:26:16",
-      "price" : 9
+      "price" : 9,
+      "description" : "Un cóctel tropical con jugo de piña y coco, ideal para relajarse bajo el sol."
     },
     {
       "idDrink": "17840",
@@ -862,7 +877,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "Yes",
       "dateModified": "2017-09-07 21:44:05",
-      "price" : 7
+      "price" : 7,
+      "description" : " Una mezcla elegante de whisky escocés y vermú, con un toque de licor de hierbas."
     },
     {
       "idDrink": "17180",
@@ -916,7 +932,8 @@
       "strImageAttribution": "Michael Styne https://www.flickr.com/photos/mstyne/",
       "strCreativeCommonsConfirmed": "Yes",
       "dateModified": "2016-11-04 09:55:28",
-      "price" : 8
+      "price" : 8,
+      "description" : "Una bebida clásica con gin, licor de violeta y limón, perfecta para los amantes de la ginebra."
     },
     {
       "idDrink": "15182",
@@ -970,7 +987,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2017-04-24 22:18:22",
-      "price" : 8.5
+      "price" : 8.5,
+      "description" : " Una bebida dulce y afrutada con vodka y jugo de naranja, perfecta para disfrutar después de una noche especial."
     },
     {
       "idDrink": "16311",
@@ -1024,7 +1042,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2016-11-15 11:24:22",
-      "price" : 7
+      "price" : 7,
+      "description" : "Una opción reconfortante con licor de manzana y especias, ideal para los días fríos."
     },
     {
       "idDrink": "12560",
@@ -1078,7 +1097,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2016-07-18 22:07:32",
-      "price" : 6
+      "price" : 6,
+      "description" : "Una bebida refrescante con jugo de naranja y granadina, para un brillo radiante."
     },
     {
       "idDrink": "13162",
@@ -1132,7 +1152,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2016-08-31 19:22:57",
-      "price" : 9
+      "price" : 9,
+      "description" : "Una mezcla suave de té helado y vodka, perfecta para disfrutar en una tarde relajada."
     },
     {
       "idDrink": "11014",
@@ -1186,7 +1207,8 @@
       "strImageAttribution": "pxfuel.com",
       "strCreativeCommonsConfirmed": "Yes",
       "dateModified": "2016-11-04 09:50:39",
-      "price" : 7
+      "price" : 7,
+      "description" : "Una bebida elegante con champagne y licor de naranja, para celebrar momentos especiales."
     },
     {
       "idDrink": "12756",
@@ -1240,7 +1262,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2017-02-20 15:02:08",
-      "price" : 7.5
+      "price" : 7.5,
+      "description" : "Un cóctel ahumado y picante con tequila y jalapeño, para los amantes de la aventura."
     },
     {
       "idDrink": "11021",
@@ -1294,7 +1317,8 @@
       "strImageAttribution": null,
       "strCreativeCommonsConfirmed": "No",
       "dateModified": "2017-01-02 20:12:14",
-      "price" : 8
+      "price" : 8,
+      "description" : "Una bebida reconfortante con whisky y licor de avellana, perfecta para las noches frescas."
     },
     {
       "idDrink": "15941",
@@ -1348,7 +1372,8 @@
       "strImageAttribution": "Author - Cher37 https://commons.wikimedia.org/wiki/File:Martini_Americano.jpg",
       "strCreativeCommonsConfirmed": "Yes",
       "dateModified": "2016-11-04 09:52:06",
-      "price" : 10
+      "price" : 10,
+      "description" : "Una opción clásica con Campari, vermú y agua con gas, para un sabor italiano auténtico."
     }
   ]
 }
