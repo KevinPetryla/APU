@@ -15,7 +15,8 @@ import { Pedido } from '../../shared/interfaces/pedido';
 export class CartaComponent implements OnInit {
   cocteles: CoctelesInterface = { drinks: [] };
   carta!: CartaInterface;
-  listaPlatos: Pedido[] = []
+  listaPlatos: Pedido[] = [];
+  cuenta: number = 0;
 
   constructor(
     private dataCocktail: CocktailServiceService,
@@ -50,11 +51,14 @@ export class CartaComponent implements OnInit {
       }
     );
   }
-  
-  Add(nombre : string, precio: number){
-    this.listaPlatos.push({nombre, precio})
+
+  Add(nombre: string, precio: number) {
+    this.cuenta += precio;
+    this.listaPlatos.push({ nombre, precio });
   }
-  Delete(){
-    this.listaPlatos.pop()
+
+  Delete(precio: number) {
+    this.cuenta -= precio;
+    this.listaPlatos.pop();
   }
 }

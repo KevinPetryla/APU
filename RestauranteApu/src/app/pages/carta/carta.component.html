@@ -2,7 +2,7 @@
   class="custom-orange-color bg-custom-dark-color montserrat-text text-center pt-5"
 >
   <h1 class="display-4 pb-5 cinzel-text">{{ carta.titulo }}</h1>
-  <div class="row row-cols-1 g-5 justify-content-center">
+  <div class="row row-cols-1 justify-content-center me-1">
     @for (seccion of carta.secciones; track $index) {
     <h1 class="pb-4 cinzel-text">{{ seccion.tituloSeccion }}</h1>
     <div
@@ -79,14 +79,29 @@
       }
     </div>
   </div>
-  <div class="d-flex row justify-content-center mt-5 py-5">
-    <div class="display-5">RESUMEN DE PEDIDO</div>
-    <ul class="d-grid justify-content-center list-group fs-4 p-3">
-      @for (pedido of listaPlatos; track $index) {
-      <li class="list-group-item text-center mb-3">
-        {{ pedido.nombre }} {{ pedido.precio }}
-      </li>
-      }
-    </ul>
-  </div>
+
+  <h1 class="m-5 p-5">RESUMEN DE PEDIDO</h1>
+  <ul class="list-group list-group-flush">
+    @for (pedido of listaPlatos; track $index) {
+    <li
+      class="list-group-item bg-dark-text-orange d-flex mb-3 justify-content-around align-self-center w-50"
+    >
+      <h5 class="col-9">{{ pedido.nombre }}</h5>
+      <h5 class="d-flex col-3">
+        {{ pedido.precio }}€
+        <button id="basuraIcon" (click)="Delete(pedido.precio)">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </h5>
+    </li>
+    } @if (cuenta>0) {
+    <li
+      class="list-group-item bg-dark-text-orange d-flex mb-3 justify-content-around align-self-center w-50"
+    >
+      <h5 class="fw-bold col-9">TOTAL</h5>
+      <h5 class="d-flex fw-bold col-3">{{ cuenta }}€</h5>
+    </li>
+    }
+  </ul>
+  <h1 class="btn custom-orange btn-lg fw-bold my-5">MANDAR PEDIDO</h1>
 </div>
