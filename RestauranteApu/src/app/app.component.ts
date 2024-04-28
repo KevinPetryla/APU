@@ -5,12 +5,14 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { CartaComponent } from './pages/carta/carta.component';
 import { IniciosesionComponent } from './pages/iniciosesion/iniciosesion.component';
 import { RegistroComponent } from './pages/registro/registro.component';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
+import { InicioComponent } from './pages/inicio/inicio.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, ContactoComponent, CartaComponent, IniciosesionComponent, RegistroComponent,AboutusComponent],
+  imports: [RouterOutlet, HeaderComponent, ContactoComponent, CartaComponent, IniciosesionComponent, RegistroComponent, InicioComponent, NavbarComponent, AboutusComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
