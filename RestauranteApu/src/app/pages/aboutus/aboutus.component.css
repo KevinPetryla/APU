@@ -97,7 +97,40 @@
    
   }
 
+
+
+
   #tarjetasreseña{
     margin-top: 5%;
-    margin-left: 5%;
+    display: flex;
+    background-color: #D3AC34;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
+
+  #t1{
+    background-color: #282828;
+    color: white;
+    margin-top: 20%;
+  }
+
+  #t2{
+    background-color: #282828;
+    color: white;
+  }
+
+  #t3{
+    background-color: #282828;
+    color: white;
+  }
+  #textt3{
+    padding-bottom: 13px;
+  }
+  #imgreseñas{
+    padding: 15px;
+  }
+
+ .row{
+  margin-top: 50px;
+ }
+
