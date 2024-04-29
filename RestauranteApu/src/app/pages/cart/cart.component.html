@@ -1,1 +1,132 @@
-<p>cart works!</p>
+<div class="container-fluid">
+   
+    <div class="row">
+         <p id="title"><b>PAGO</b></p>
+        <div class="row">
+         
+            <div class="col-8"> 
+              <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-6">
+                  <label for="validationCustom01" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="Luis" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="Miguel" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom01" class="form-label">Correo</label>
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="tucorreo@ejemplo.com" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Telefono</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">+34</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <label>Tipo de servicio</label>
+                <div> 
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="delivery">
+                  <label class="form-check-label" for="inlineRadio1"> Delivery</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="pickup">
+                  <label class="form-check-label" for="inlineRadio2">Pick Up</label>
+                </div>
+              </div>
+              <label>Forma de pago</label>
+              <div> 
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="tarjeta">
+                <label class="form-check-label" for="inlineRadio1">Tarjeta</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="efectivo" disabled>
+                <label class="form-check-label" for="inlineRadio2">Efectivo (No disponible)</label>
+              </div>
+            </div>
+
+
+               
+
+               
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Titular</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">Tipo de tarjeta</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Elige...</option>
+                    <option> Visa</option>
+                    <option> Mastercard</option>
+                    <option> American Express</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid state.
+                  </div>
+                </div>
+
+                <div class="col-md-10">
+                  <label for="validationCustom02" class="form-label">Numero de tarjeta</label>
+                  <div class="input-group has-validation">
+                    
+                  <span class="input-group-text" id="inputGroupPrepend">💳</span>
+                  <input type="text" class="form-control" id="validationCustomUsername" placeholder="**** ***** ***** ****" aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Please choose a username.
+                  </div>
+                </div>
+                </div>
+
+
+
+                <div class="col-md-3">
+                  <label for="validationCustom01" class="form-label">Caducidad</label>
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="mm/yy" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom02" class="form-label">Código de seguridad</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="***" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+
+              </form>
+            </div>
+            <div class="col-4" id="resume">
+                <p class="p-2">RESUMEN</p>  
+                <hr>
+                <p>Total: </p>
+                <button class="btn custom-orange " type="submit">PAGAR</button>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div>
+
+    </div>
+</div>

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Data } from '@angular/router';
+import { CartaInterface } from '../../shared/interfaces/carta-interface';
 
 @Component({
   selector: 'app-delivery',

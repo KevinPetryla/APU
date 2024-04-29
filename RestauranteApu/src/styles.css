@@ -7,9 +7,6 @@
   box-sizing: border-box;
 }
 
-
-/* RECORDAD QUE NO FUNCIONA EN BOTONES DE BOOTSTRAP. EL ESTILO WARNING DEL PROPIO BOOTSTRAP ES MUY BUENA SOLUCION */
-
 .custom-orange-color{
   color: #D3AC34;
 }
@@ -38,5 +35,28 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* RECORDAD QUE NO FUNCIONA EN BOTONES DE BOOTSTRAP. EL ESTILO WARNING DEL PROPIO BOOTSTRAP ES MUY BUENA SOLUCION */
+.custom-orange-color.card-title{
+  color: #D3AC34;
+}
+
+.custom-dark-color.card-title{
+  color: #1E1E1E;
+}
+
+.btn.custom-orange{
+  background-color: #D3AC34;
+  color: #1E1E1E;
+}
+
+.btn.custom-orange:hover {
+  background-color: #997404;
+  color: #1E1E1E;
+}
+
+.list-group-item.bg-dark-text-orange{
+  background-color: #1E1E1E;
+  color: #D3AC34;
+}
+
+
 
