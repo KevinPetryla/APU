@@ -1,4 +1,7 @@
 
+*{
+    overflow-x: hidden;
+}
 
 #basuraIcon{
     color: #d3ac34;
