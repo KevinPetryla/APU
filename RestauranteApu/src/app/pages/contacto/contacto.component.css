@@ -29,3 +29,16 @@ i {
     border-radius: 10px;
 
 }
+
+input {
+    background-color: #1e1e1e;
+}
+
+textarea {
+    background-color: #1e1e1e;
+}
+
+.btn.btn-dark:hover {
+    background-color: #d3ac34; 
+    color: #fff; 
+}
