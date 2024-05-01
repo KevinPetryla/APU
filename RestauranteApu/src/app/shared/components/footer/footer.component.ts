@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+  miFuncion() {
+    // Lógica que se ejecutará cuando se haga clic en el botón
+    console.log('Se hizo clic en el botón');
+  }
 
 }
