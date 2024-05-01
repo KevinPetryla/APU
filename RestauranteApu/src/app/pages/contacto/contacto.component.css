@@ -1,0 +1,31 @@
+
+i {
+    padding: .5rem;
+    border: 1px solid #d3ac34;
+    border-radius: 50%;
+    color: #d3ac34;
+}
+
+.cards-info {
+    padding: 50px;
+}
+
+.form-floating {
+    color: grey;
+    font-family: Montserrat;
+    background-color: #3e3e44;
+}
+
+
+.container-form {
+    background-color: #3e3e44;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 16px;
+    border-radius: 10px;
+
+}
