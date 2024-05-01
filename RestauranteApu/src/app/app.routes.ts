@@ -1,7 +1,6 @@
 import { Routes } from '@angular/router';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { ReservasComponent } from './pages/reservas/reservas.component';
-import { InicioComponent } from './pages/inicio/inicio.component';
 import { IniciosesionComponent } from './pages/iniciosesion/iniciosesion.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { PageNotFoundComponentComponent } from './pages/page-not-found-component/page-not-found-component.component';
@@ -10,6 +9,7 @@ import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { DeliveryComponent } from './pages/delivery/delivery.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { CartaComponent } from './pages/carta/carta.component';
+import { InicioComponent } from './pages/inicio/inicio.component';
 
 export const routes: Routes = [
     {
@@ -19,6 +19,7 @@ export const routes: Routes = [
     },
     {
         path: "inicio",
+        title: "Inicio",
         component: InicioComponent
     },
     { 
