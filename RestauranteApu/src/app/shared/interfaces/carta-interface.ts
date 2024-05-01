@@ -1,9 +1,9 @@
 export interface CartaInterface {
     titulo: string
-    secciones: Seccione[]
+    secciones: Seccion[]
   }
   
-  export interface Seccione {
+  export interface Seccion {
     tituloSeccion: string
     platos: Plato[]
   }
@@ -11,6 +11,6 @@ export interface CartaInterface {
   export interface Plato {
     nombre: string
     imagen: string
-    precio: string
+    precio: number
     descripcion?: string
   }

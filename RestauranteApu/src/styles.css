@@ -1,5 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+.custom-orange-color{
+  color: #D3AC34;
+}
+
+.custom-dark-color{
+  color: #1E1E1E;
+}
+
+.bg-custom-orange-color{
+  background-color: #D3AC34;
+}
+
+.bg-custom-dark-color{
+  background-color: #1E1E1E;
+}
+
+.montserrat-text{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cinzel-text{
+  font-family: 'Cinzel', sans-serif;
+}
+
+.poppins-text{
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-orange-color.card-title{
+  color: #D3AC34;
+}
+
+.custom-dark-color.card-title{
+  color: #1E1E1E;
+}
+
+.btn.custom-orange{
+  background-color: #D3AC34;
+  color: #1E1E1E;
+}
+
+.btn.custom-orange:hover {
+  background-color: #997404;
+  color: #1E1E1E;
+}
+
+.list-group-item.bg-dark-text-orange{
+  background-color: #1E1E1E;
+  color: #D3AC34;
+}
+
+
+

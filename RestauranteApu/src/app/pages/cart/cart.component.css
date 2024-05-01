@@ -1,0 +1,21 @@
+.container-fluid{
+    background-color: #1E1E1E;
+    overflow-x: hidden;
+    display: flex;
+    
+}
+#resume {
+    background-color: #252424;
+    color: #FFFEFE;
+}
+#title {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+    background-color: #d3a933;
+    color: #1E1E1E;
+    font-size: 1.2em;
+}
+label{color: #FFFEFE;}

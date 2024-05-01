@@ -1,0 +1,136 @@
+#imgcoc{
+    margin-left:8%;
+}
+
+#cocineros{
+    border: solid;
+    border-color: #ffbf00;
+    width: 95%;
+    height: auto;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, rgb(238, 255, 2) 0%, rgb(230, 103, 239) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(130, 130, 130, 0.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #ffffff;
+    box-shadow: 0 0 60px #d3be34;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #ffffff;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
+
+  #btn-ig{
+    margin-top: -30%;
+   
+  }
+
+
+
+
+  #tarjetasreseña{
+    margin-top: 5%;
+    display: flex;
+    background-color: #D3AC34;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  #t1{
+    background-color: #282828;
+    color: white;
+    margin-top: 20%;
+  }
+
+  #t2{
+    background-color: #282828;
+    color: white;
+  }
+
+  #t3{
+    background-color: #282828;
+    color: white;
+  }
+  #textt3{
+    padding-bottom: 13px;
+  }
+  #imgreseñas{
+    padding: 15px;
+  }
+
+ .row{
+  margin-top: 50px;
+ }
+
