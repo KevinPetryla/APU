@@ -88,7 +88,7 @@
     100% {
       width: 300px;
       height: 300px;
-      opacity: 0;
+      opacity: 3;
     }
   }
 
@@ -101,32 +101,6 @@
     background-color: #d3ac34;
   }
 
-  
-  
-  .card1 {
-    width: 200px;
-    height: 300px;
-    background-color: #ba8c01;
-    border-radius: 1rem;
-    box-shadow: -0.3rem -0.3rem #111111, 0.3rem 0.3rem #cdd40b;
-    transition: box-shadow 0.3s;
-    &:hover {
-      box-shadow: 0.3rem 0.3rem #000000, -0.3rem -0.3rem #f9f104;
-    }
-  }
-
-  .card2 {
-    width: 200px;
-    height: 300px;
-    background-color: #ba8c01;
-    border-radius: 1rem;
-    box-shadow: -0.3rem -0.3rem #111111, 0.3rem 0.3rem #cdd40b;
-    transition: box-shadow 0.3s;
-    &:hover {
-      box-shadow: 0.3rem 0.3rem #000000, -0.3rem -0.3rem #f9f104;
-    }
-    margin-left: 400%;
-  }
 
   .profile-card-2 {
     max-width: 300px;
