@@ -27,8 +27,13 @@ i {
     flex: 1;
     gap: 16px;
     border-radius: 10px;
-
 }
+
+.form-control {
+    background-color: #1e1e1e;
+    border: none;
+}
+
 
 input {
     background-color: #1e1e1e;
@@ -38,7 +43,17 @@ textarea {
     background-color: #1e1e1e;
 }
 
+
 .btn.btn-dark:hover {
     background-color: #d3ac34; 
     color: #fff; 
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+iframe {
+    margin-top: 50px;
 }

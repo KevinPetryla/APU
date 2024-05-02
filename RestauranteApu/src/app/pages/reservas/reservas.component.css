@@ -1,12 +1,82 @@
 .column-with-padding {
-    padding-top: 70px; /* ajusta según sea necesario */
-    padding-bottom: 50px; /* ajusta según sea necesario */
+    padding-top: 70px; 
+    padding-bottom: 50px;
 }
 
 .rounded-image {
-    border-radius: 40px; /* ajusta el valor según quieras el redondeo */
+    border-radius: 40px; 
 }
 
-/* .color-tarjeta {
-    background-color: #343a40;
-} */
+.form-floating {
+    color: grey;
+    font-family: Montserrat;
+    background-color: #3e3e44;
+}
+
+
+.container-form {
+    background-color: #3e3e44;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 16px;
+    border-radius: 10px;
+}
+
+.form-control {
+    background-color: #1e1e1e;
+    border: none;
+}
+
+
+input {
+    background-color: #1e1e1e;
+}
+
+textarea {
+    background-color: #1e1e1e;
+}
+
+
+.btn.btn-dark:hover {
+    background-color: #d3ac34; 
+    color: #fff; 
+}
+
+.form-select {
+    background-color: #1e1e1e;
+
+}
+
+select option[selected] {
+    color: red;
+}
+
+button {
+    margin-top: 30px;
+}
+
+.bg-img {
+    background-image: url("/assets/images/reservafoto.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+select {
+    border: none;
+}
+
+select:focus, input:focus {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(211,172,52,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(211,172,52,1);
+    box-shadow: 0px 0px 10px 0px rgba(211,172,52,1);
+}
+
+input::placeholder {
+    color: grey;
+}
+
