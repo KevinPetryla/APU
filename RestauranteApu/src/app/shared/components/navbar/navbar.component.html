@@ -1,1 +1,39 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+    <div class="container-fluid justify-content-center">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/aboutus">Sobre nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/carta">Carta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/delivery">Delivery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/reservas">Reserva</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/contacto">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cuenta
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" routerLink="/iniciodesesion">Inicio de sesión</a></li>
+              <li><a class="dropdown-item" routerLink="/registro">Registro</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
