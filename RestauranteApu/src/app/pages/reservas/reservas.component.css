@@ -1,0 +1,12 @@
+.column-with-padding {
+    padding-top: 70px; /* ajusta según sea necesario */
+    padding-bottom: 50px; /* ajusta según sea necesario */
+}
+
+.rounded-image {
+    border-radius: 40px; /* ajusta el valor según quieras el redondeo */
+}
+
+/* .color-tarjeta {
+    background-color: #343a40;
+} */
