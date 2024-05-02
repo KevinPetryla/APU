@@ -48,12 +48,8 @@ textarea {
 
 .form-select {
     background-color: #1e1e1e;
-
 }
 
-select option[selected] {
-    color: red;
-}
 
 button {
     margin-top: 30px;
@@ -77,6 +73,6 @@ select:focus, input:focus {
 }
 
 input::placeholder {
-    color: grey;
+    color: white;
 }
 

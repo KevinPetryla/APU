@@ -57,3 +57,37 @@ p {
 iframe {
     margin-top: 50px;
 }
+
+.form-select {
+    background-color: #1e1e1e;
+}
+
+
+button {
+    margin-top: 30px;
+}
+
+.bg-img {
+    background-image: url("/assets/images/reservafoto.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+select {
+    border: none;
+}
+
+select:focus, input:focus, textarea:focus {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(211,172,52,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(211,172,52,1);
+    box-shadow: 0px 0px 10px 0px rgba(211,172,52,1);
+}
+
+input::placeholder {
+    color: white;
+}
+
+textarea::placeholder {
+    color: white;
+}
