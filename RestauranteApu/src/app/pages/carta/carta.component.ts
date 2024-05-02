@@ -4,11 +4,12 @@ import { CocktailServiceService } from '../../shared/services/cocktail-service.s
 import { PlatoServiceService } from '../../shared/services/plato-service.service';
 import { CartaInterface, Plato } from '../../shared/interfaces/carta-interface';
 import { Pedido } from '../../shared/interfaces/pedido';
+import { NavCartaComponent } from './nav-carta/nav-carta.component';
 
 @Component({
   selector: 'app-carta',
   standalone: true,
-  imports: [],
+  imports: [NavCartaComponent],
   templateUrl: './carta.component.html',
   styleUrl: './carta.component.css',
 })
