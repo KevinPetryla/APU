@@ -26,7 +26,7 @@
   
   .hero-section{
     align-items: flex-start;
-    background-image: linear-gradient(15deg, #21201f 0%, #e6b504 150%);
+    background-image: linear-gradient(15deg, #d3ac34 0%, #d3ac34 150%);
     display: flex;
     min-height: 100%;
     justify-content: center;
@@ -99,6 +99,7 @@
     position: absolute;
     top: 0;
     color: aliceblue;
+    margin-left: 10px;
   }
   
   .card__category{
@@ -106,6 +107,7 @@
     font-size: 0.9rem;
     margin-bottom: var(--spacing-s);
     text-transform: uppercase;
+    margin-left: 10px;
   }
   
   .card__heading{

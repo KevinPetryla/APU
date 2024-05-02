@@ -1,14 +1,9 @@
 
-
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;	
 	font-family: Raleway, sans-serif;
-}
-
-body {
-	background: linear-gradient(90deg, #C7C5F4, #ffffff);		
 }
 
 .container {
@@ -100,13 +95,6 @@ body {
 	padding: 20px 0px;	
 	position: relative;	
 }
-
-.login__icon {
-	position: absolute;
-	top: 30px;
-	color: #000000;
-}
-
 .login__input {
 	border: none;
 	border-bottom: 2px solid #000000;
@@ -170,4 +158,9 @@ body {
 
 .social-login h6:hover{
     text-decoration: underline;
+}
+
+#fondo{
+	padding-top: 5%;
+	padding-bottom: 5%;
 }

@@ -16,14 +16,6 @@ body {
 	background: linear-gradient(90deg, #C7C5F4, #ffffff);		
 }
 
-.container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding-left:50%;
-	padding-right: 50%;
-	margin-top: 5%;
-}
 
 .screen {		
 	background: linear-gradient(90deg, #000000, #D3AC34);		
@@ -168,4 +160,9 @@ body {
 
 .social-login h6:hover{
     text-decoration: underline;
+}
+
+#fondo{
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
