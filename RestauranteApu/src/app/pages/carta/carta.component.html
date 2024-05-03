@@ -40,8 +40,47 @@
       }
     </div>
     }
-    
+    <h1 class="pb-4">Cocteles</h1>
+    <div
+      class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly"
+      style="width: 70%"
+    >
+      @for (coctel of cocteles.drinks; track $index) {
+
+      <div class="col p-4">
+        <div class="card h-100">
+          <img
+            src="{{ coctel.strDrinkThumb }}"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body bg-custom-dark-color">
+            <div class="col d-flex align-items-center border-bottom">
+              <h4 class="custom-orange-color card-title col-7 fw-bolder pe-2">
+                {{ coctel.strDrink }}
+              </h4>
+              <h4
+                class="custom-orange-color card-title col-5 rounded-pill border"
+              >
+                {{ coctel.price }}€
+              </h4>
+            </div>
+            <p class="card-text custom-orange-color fs-5 p-3">
+              {{ coctel.description }}
+            </p>
+          </div>
+          <div
+            class="btn custom-orange btn border-top"
+            (click)="Add(coctel.strDrink, coctel.price)"
+          >
+            <h5 class="fw-bold">PEDIR</h5>
+          </div>
+        </div>
+      </div>
+      }
+    </div>
   </div>
+  
 
   <h1 class="m-5 p-5">RESUMEN DE PEDIDO</h1>
   <ul class="list-group list-group-flush">
