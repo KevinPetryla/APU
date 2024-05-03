@@ -1,0 +1,11 @@
+.container-fluid{
+    background-color: #1E1E1E;
+    overflow-x: hidden;
+    
+}
+#idtitlecocteles, #title{
+    background-color:  #d3a933;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
