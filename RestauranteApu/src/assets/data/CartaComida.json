@@ -2,33 +2,39 @@
     "titulo" : "Menú a la carta",
     "secciones" : [
         {
+            "numSeccion" : "1",
             "tituloSeccion" : "Entrantes",
             "platos" : [
                 {
+                    "idPlato" : "1",
                     "nombre" : "Samosas de pollo y de verduras",
                     "imagen" : "./assets/images/samosaCarta.jpg",
                     "precio" : 6.00,
                     "descripcion" : "Dos selecciones de Samosas, unas de delicioso pollo al Curry y otras de patata y verduras al Curry"
                 },
                 {
+                    "idPlato" : "2",
                     "nombre" : "Conjunto de chutneys",
                     "imagen" : "./assets/images/chutneysCarta.jpg",
                     "precio" : 4.00,
                     "descripcion" : "Un dulce Chutney de mango, un refrescante Chutney de menta y cilantro, y para los más valientes, un Chutney de chile picante."
                 },
                 {
+                    "idPlato" : "3",
                     "nombre" : "Balti de langostinos",
                     "imagen" : "./assets/images/baltiLangostinosCarta.jpg",
                     "precio" : 7.00,
                     "descripcion" : "Langostinos salteados en Wok con cebolla morada, junto a una crema picante de ají, tomate y leche de coco."
                 },
                 {
+                    "idPlato" : "4",
                     "nombre" : "Ensalada Kachumber",
                     "imagen" : "./assets/images/ensaladaCarta.jpg",
                     "precio" : 7.00,
                     "descripcion" : "Ensalada refrescante con pepino impregnado de tomate y lima sobre una crema de cebolla roja encurtida, y acabada con vinagreta de cilantro."
                 },
                 {
+                    "idPlato" : "5",
                     "nombre" : "Pan Naan",
                     "imagen" : "./assets/images/naanCarta.jpg",
                     "precio" : 3.00,
@@ -36,27 +42,32 @@
                 }
             ]
         },{
+            "numSeccion" : "2",
             "tituloSeccion" : "Principales",
             "platos" : [
                 {
+                    "idPlato" : "1",
                     "nombre" : "Paneer Korma",
                     "imagen" : "./assets/images/paneerCarta.jpg",
                     "precio" : 11.00,
                     "descripcion" : "Queso Paneer indio servido con una sabrosa salsa Korma de leche de coco y anacardos."
                 },
                 {
+                    "idPlato" : "2",
                     "nombre" : "Lamb Masala",
                     "imagen" : "./assets/images/lambMasalaCarta.jpg",
                     "precio" : 13.00,
                     "descripcion" : "Cordero marinado en yogur y especias Masala, cocinado en horno Tandoori y servido con almendra tostada machacada y cilantro fresco."
                 },
                 {
+                    "idPlato" : "3",
                     "nombre" : "Butter Chicken",
                     "imagen" : "./assets/images/butterChickenCarta.jpg",
                     "precio" : 10.50,
                     "descripcion" : "Pollo macerado y sasado en horno Tandoori, bañado en una deliciosa salsa de mantequilla, puré de tomate y especias Garam Masala."
                 },
                 {
+                    "idPlato" : "4",
                     "nombre" : "Rape Mappas Curry",
                     "imagen" : "./assets/images/mapasCurryCarta.jpg",
                     "precio" : 13.00,
@@ -64,21 +75,25 @@
                 }
             ]
         },{
+            "numSeccion" : "3",
             "tituloSeccion" : "Postres",
             "platos" : [
                 {
+                    "idPlato" : "1",
                     "nombre" : "Sorbete Chai Masala",
                     "imagen" : "./assets/images/sorbeteCarta.jpg",
                     "precio" : 6.00,
                     "descripcion" : "Refrescante sorbete de diferentes especias, té y hiervas aromáticas , con ligeros toques de miel y almendras"
                 },
                 {
+                    "idPlato" : "2",
                     "nombre" : "Kulfi de pistacho",
                     "imagen" : "./assets/images/kulfiCarta.jpg",
                     "precio" : 6.00,
                     "descripcion" : "Helado indio de pistacho con Kaju Katli, Yalebi y crema de café Chai."
                 },
                 {
+                    "idPlato" : "3",
                     "nombre" : "Kheer",
                     "imagen" : "./assets/images/kheerCarta.jpg",
                     "precio" : 6.00,
@@ -86,14 +101,17 @@
                 }
             ]
         },{
+            "numSeccion" : "4",
             "tituloSeccion" : "Café y té",
             "platos" : [
                 {
+                    "idPlato" : "1",
                     "nombre" : "Café Monsooned Malabar",
                     "imagen" : "./assets/images/cafeCarta.jpg",
                     "precio" : 3.00
                 },
                 {
+                    "idPlato" : "2",
                     "nombre" : "Té negro Darjeeling",
                     "imagen" : "./assets/images/teCarta.jpg",
                     "precio" : 3.00

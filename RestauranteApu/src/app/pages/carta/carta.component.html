@@ -3,12 +3,12 @@
   class="custom-orange-color bg-custom-dark-color montserrat-text text-center pt-5"
 >
   <h1 class="display-4 pb-5 cinzel-text">{{ carta.titulo }}</h1>
-  <div class="row row-cols-1 justify-content-center me-1">
+  <div class="row row-cols-1 justify-content-center">
     @for (seccion of carta.secciones; track $index) {
     <h1 class="pb-4 cinzel-text">{{ seccion.tituloSeccion }}</h1>
     <div
-      class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly"
-      style="width: 70%"
+      class="row row-cols-sm-1 row-cols-xl-3 row-cols-xxl-4 justify-content-evenly me-3"
+      style="width: 85%"
     >
       @for (plato of seccion.platos; track $index) {
       <div class="col p-4">
@@ -29,10 +29,7 @@
               {{ plato.descripcion }}
             </p>
           </div>
-          <div
-            class="btn custom-orange btn border-top"
-            (click)="Add(plato.nombre, plato.precio)"
-          >
+          <div class="btn custom-orange btn border-top">
             <h5 class="fw-bold">PEDIR</h5>
           </div>
         </div>
@@ -80,7 +77,6 @@
       }
     </div>
   </div>
-  
 
   <h1 class="m-5 p-5">RESUMEN DE PEDIDO</h1>
   <ul class="list-group list-group-flush">
