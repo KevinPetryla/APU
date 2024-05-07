@@ -1,16 +1,14 @@
 <app-nav-carta class="sticky-top"></app-nav-carta>
-<div
-  class="custom-orange-color bg-custom-dark-color montserrat-text text-center pt-5"
->
+<div class="custom-orange-color bg-custom-dark-color montserrat-text text-center pt-5">
   <h1 class="display-4 pb-5 cinzel-text">{{ carta.titulo }}</h1>
+
   <div class="row row-cols-1 justify-content-center me-1">
-    @for (seccion of carta.secciones; track $index) {
-    <h1 class="pb-4 cinzel-text">{{ seccion.tituloSeccion }}</h1>
-    <div
-      class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly"
-      style="width: 70%"
-    >
-      @for (plato of seccion.platos; track $index) {
+
+    <!-- seccion entrantes -->
+    <div id="entrantes"></div>
+    <h1 class="pb-4 cinzel-text">{{ carta.secciones[0].tituloSeccion }}</h1>
+    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly" style="width: 70%">
+      @for (plato of carta.secciones[0].platos; track plato) {
       <div class="col p-4">
         <div class="card h-100">
           <img src="{{ plato.imagen }}" class="card-img-top" alt="..." />
@@ -19,9 +17,7 @@
               <h4 class="custom-orange-color card-title col-7 fw-bolder pe-2">
                 {{ plato.nombre }}
               </h4>
-              <h4
-                class="custom-orange-color card-title col-5 rounded-pill border"
-              >
+              <h4 class="custom-orange-color card-title col-5 rounded-pill border">
                 {{ plato.precio }}€
               </h4>
             </div>
@@ -29,39 +25,123 @@
               {{ plato.descripcion }}
             </p>
           </div>
-          <div
-            class="btn custom-orange btn border-top"
-            (click)="Add(plato.nombre, plato.precio)"
-          >
+          <div class="btn custom-orange btn border-top" (click)="Add(plato.nombre, plato.precio)">
             <h5 class="fw-bold">PEDIR</h5>
           </div>
         </div>
       </div>
+
       }
     </div>
-    }
-    <h1 class="pb-4">Cocteles</h1>
-    <div
-      class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly"
-      style="width: 70%"
-    >
+
+    <!-- seccion principales -->
+    <div id="principales"><br><br><br></div>
+    <h1 class="pb-4 cinzel-text">{{ carta.secciones[1].tituloSeccion }}</h1>
+    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly" style="width: 70%">
+      @for (plato of carta.secciones[1].platos; track plato) {
+      <div class="col p-4">
+        <div class="card h-100">
+          <img src="{{ plato.imagen }}" class="card-img-top" alt="..." />
+          <div class="card-body bg-custom-dark-color">
+            <div class="col d-flex align-items-center border-bottom">
+              <h4 class="custom-orange-color card-title col-7 fw-bolder pe-2">
+                {{ plato.nombre }}
+              </h4>
+              <h4 class="custom-orange-color card-title col-5 rounded-pill border">
+                {{ plato.precio }}€
+              </h4>
+            </div>
+            <p class="card-text custom-orange-color fs-5 p-3">
+              {{ plato.descripcion }}
+            </p>
+          </div>
+          <div class="btn custom-orange btn border-top" (click)="Add(plato.nombre, plato.precio)">
+            <h5 class="fw-bold">PEDIR</h5>
+          </div>
+        </div>
+      </div>
+
+      }
+    </div>
+
+    <!-- seccion postres -->
+    <div id="postres"><br><br><br></div>
+    <h1 class="pb-4 cinzel-text">{{ carta.secciones[2].tituloSeccion }}</h1>
+    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly" style="width: 70%">
+      @for (plato of carta.secciones[2].platos; track plato) {
+      <div class="col p-4">
+        <div class="card h-100">
+          <img src="{{ plato.imagen }}" class="card-img-top" alt="..." />
+          <div class="card-body bg-custom-dark-color">
+            <div class="col d-flex align-items-center border-bottom">
+              <h4 class="custom-orange-color card-title col-7 fw-bolder pe-2">
+                {{ plato.nombre }}
+              </h4>
+              <h4 class="custom-orange-color card-title col-5 rounded-pill border">
+                {{ plato.precio }}€
+              </h4>
+            </div>
+            <p class="card-text custom-orange-color fs-5 p-3">
+              {{ plato.descripcion }}
+            </p>
+          </div>
+          <div class="btn custom-orange btn border-top" (click)="Add(plato.nombre, plato.precio)">
+            <h5 class="fw-bold">PEDIR</h5>
+          </div>
+        </div>
+      </div>
+
+      }
+    </div>
+
+    <!-- seccion cafes/tes -->
+    <div id="cafes">
+      <br><br><br>
+    </div>
+    <h1 class="pb-4 cinzel-text">{{ carta.secciones[3].tituloSeccion }}</h1>
+    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly" style="width: 70%">
+      @for (plato of carta.secciones[3].platos; track plato) {
+      <div class="col p-4">
+        <div class="card h-100">
+          <img src="{{ plato.imagen }}" class="card-img-top" alt="..." />
+          <div class="card-body bg-custom-dark-color">
+            <div class="col d-flex align-items-center border-bottom">
+              <h4 class="custom-orange-color card-title col-7 fw-bolder pe-2">
+                {{ plato.nombre }}
+              </h4>
+              <h4 class="custom-orange-color card-title col-5 rounded-pill border">
+                {{ plato.precio }}€
+              </h4>
+            </div>
+            <p class="card-text custom-orange-color fs-5 p-3">
+              {{ plato.descripcion }}
+            </p>
+          </div>
+          <div class="btn custom-orange btn border-top" (click)="Add(plato.nombre, plato.precio)">
+            <h5 class="fw-bold">PEDIR</h5>
+          </div>
+        </div>
+      </div>
+
+      }
+    </div>
+
+    <!-- seccion de cocteles -->
+    <div id="cocteles"><br><br><br>
+      <h1 class="pb-4">Cocteles</h1>
+    </div>
+    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly" style="width: 70%">
       @for (coctel of cocteles.drinks; track $index) {
 
       <div class="col p-4">
         <div class="card h-100">
-          <img
-            src="{{ coctel.strDrinkThumb }}"
-            class="card-img-top"
-            alt="..."
-          />
+          <img src="{{ coctel.strDrinkThumb }}" class="card-img-top" alt="..." />
           <div class="card-body bg-custom-dark-color">
             <div class="col d-flex align-items-center border-bottom">
               <h4 class="custom-orange-color card-title col-7 fw-bolder pe-2">
                 {{ coctel.strDrink }}
               </h4>
-              <h4
-                class="custom-orange-color card-title col-5 rounded-pill border"
-              >
+              <h4 class="custom-orange-color card-title col-5 rounded-pill border">
                 {{ coctel.price }}€
               </h4>
             </div>
@@ -69,10 +149,7 @@
               {{ coctel.description }}
             </p>
           </div>
-          <div
-            class="btn custom-orange btn border-top"
-            (click)="Add(coctel.strDrink, coctel.price)"
-          >
+          <div class="btn custom-orange btn border-top" (click)="Add(coctel.strDrink, coctel.price)">
             <h5 class="fw-bold">PEDIR</h5>
           </div>
         </div>
@@ -80,14 +157,14 @@
       }
     </div>
   </div>
-  
 
-  <h1 class="m-5 p-5">RESUMEN DE PEDIDO</h1>
+
+  <div id="respedido">
+    <h1 class="m-5 p-5">RESUMEN DE PEDIDO</h1>
+  </div>
   <ul class="list-group list-group-flush">
     @for (pedido of listaPlatos; track $index) {
-    <li
-      class="list-group-item bg-dark-text-orange d-flex mb-3 justify-content-around align-self-center w-50"
-    >
+    <li class="list-group-item bg-dark-text-orange d-flex mb-3 justify-content-around align-self-center w-50">
       <h5 class="col-9">{{ pedido.nombre }}</h5>
       <h5 class="d-flex col-3">
         {{ pedido.precio }}€
@@ -97,9 +174,7 @@
       </h5>
     </li>
     } @if (cuenta>0) {
-    <li
-      class="list-group-item bg-dark-text-orange d-flex mb-3 justify-content-around align-self-center w-50"
-    >
+    <li class="list-group-item bg-dark-text-orange d-flex mb-3 justify-content-around align-self-center w-50">
       <h5 class="fw-bold col-9">TOTAL</h5>
       <h5 class="d-flex fw-bold col-3">{{ cuenta }}€</h5>
     </li>
