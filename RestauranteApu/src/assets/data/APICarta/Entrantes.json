@@ -1,0 +1,41 @@
+{ 
+    "numSeccion" : "1",
+    "tituloSeccion" : "Entrantes",
+    "platos" : [
+        {
+            "idPlato" : "1",
+            "nombre" : "Samosas de pollo y de verduras",
+            "imagen" : "./assets/images/samosaCarta.jpg",
+            "precio" : 6.00,
+            "descripcion" : "Dos selecciones de Samosas, unas de delicioso pollo al Curry y otras de patata y verduras al Curry"
+        },
+        {
+            "idPlato" : "2",
+            "nombre" : "Conjunto de chutneys",
+            "imagen" : "./assets/images/chutneysCarta.jpg",
+            "precio" : 4.00,
+            "descripcion" : "Un dulce Chutney de mango, un refrescante Chutney de menta y cilantro, y para los más valientes, un Chutney de chile picante."
+        },
+        {
+            "idPlato" : "3",
+            "nombre" : "Balti de langostinos",
+            "imagen" : "./assets/images/baltiLangostinosCarta.jpg",
+            "precio" : 7.00,
+            "descripcion" : "Langostinos salteados en Wok con cebolla morada, junto a una crema picante de ají, tomate y leche de coco."
+        },
+        {
+            "idPlato" : "4",
+            "nombre" : "Ensalada Kachumber",
+            "imagen" : "./assets/images/ensaladaCarta.jpg",
+            "precio" : 7.00,
+            "descripcion" : "Ensalada refrescante con pepino impregnado de tomate y lima sobre una crema de cebolla roja encurtida, y acabada con vinagreta de cilantro."
+        },
+        {
+            "idPlato" : "5",
+            "nombre" : "Pan Naan",
+            "imagen" : "./assets/images/naanCarta.jpg",
+            "precio" : 3.00,
+            "descripcion" : "Pan Naan casero, pintado con nuestra mantequilla de ajo y cilantro fresco del día."
+        }
+    ]
+}

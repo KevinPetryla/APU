@@ -1,0 +1,18 @@
+{
+    "numSeccion" : "4",
+    "tituloSeccion" : "Café y té",
+    "platos" : [
+        {
+            "idPlato" : "14",
+            "nombre" : "Café Monsooned Malabar",
+            "imagen" : "./assets/images/cafeCarta.jpg",
+            "precio" : 3.00
+        },
+        {
+            "idPlato" : "15",
+            "nombre" : "Té negro Darjeeling",
+            "imagen" : "./assets/images/teCarta.jpg",
+            "precio" : 3.00
+        }
+    ]
+}

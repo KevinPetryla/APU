@@ -3,7 +3,6 @@ import { CoctelesInterface } from '../../shared/interfaces/cocteles-interface';
 import { CocktailServiceService } from '../../shared/services/cocktail-service.service';
 import { PlatoServiceService } from '../../shared/services/plato-service.service';
 import { CartaInterface, Plato } from '../../shared/interfaces/carta-interface';
-import { Pedido } from '../../shared/interfaces/pedido';
 import { NavCartaComponent } from './nav-carta/nav-carta.component';
 import { RouterLink } from '@angular/router';
 
@@ -17,7 +16,6 @@ import { RouterLink } from '@angular/router';
 export class CartaComponent implements OnInit {
   cocteles: CoctelesInterface = { drinks: [] };
   carta!: CartaInterface;
-  listaPlatos: Pedido[] = [];
   cuenta: number = 0;
 
   constructor(
@@ -54,13 +52,4 @@ export class CartaComponent implements OnInit {
     );
   }
 
-  Add(nombre: string, precio: number) {
-    this.cuenta += precio;
-    this.listaPlatos.push({ nombre, precio });
-  }
-
-  Delete(precio: number) {
-    this.cuenta -= precio;
-    this.listaPlatos.pop();
-  }
 }
