@@ -1,0 +1,8 @@
+{
+    "idPlato" : 1,
+    "nombre" : "Samosas de pollo y de verduras",
+    "imagen" : "./assets/images/samosaCarta.jpg",
+    "precio" : 6.00,
+    "descripcion" : "Dos selecciones de Samosas, unas de delicioso pollo al Curry y otras de patata y verduras al Curry",
+    "alergenos" : ["Gluten", "Lacteos", "Huevos"]
+}

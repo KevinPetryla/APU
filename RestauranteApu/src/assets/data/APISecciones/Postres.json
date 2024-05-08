@@ -1,23 +1,23 @@
 {
-    "numSeccion" : "3",
+    "numSeccion" : 3,
     "tituloSeccion" : "Postres",
     "platos" : [
         {
-            "idPlato" : "10",
+            "idPlato" : 10,
             "nombre" : "Sorbete Chai Masala",
             "imagen" : "./assets/images/sorbeteCarta.jpg",
             "precio" : 6.00,
             "descripcion" : "Refrescante sorbete de diferentes especias, té y hiervas aromáticas , con ligeros toques de miel y almendras"
         },
         {
-            "idPlato" : "12",
+            "idPlato" : 11,
             "nombre" : "Kulfi de pistacho",
             "imagen" : "./assets/images/kulfiCarta.jpg",
             "precio" : 6.00,
             "descripcion" : "Helado indio de pistacho con Kaju Katli, Yalebi y crema de café Chai."
         },
         {
-            "idPlato" : "13",
+            "idPlato" : 12,
             "nombre" : "Kheer",
             "imagen" : "./assets/images/kheerCarta.jpg",
             "precio" : 6.00,

@@ -1,0 +1,8 @@
+{
+    "idPlato" : 2,
+    "nombre" : "Conjunto de chutneys",
+    "imagen" : "./assets/images/chutneysCarta.jpg",
+    "precio" : 4.00,
+    "descripcion" : "Un dulce Chutney de mango, un refrescante Chutney de menta y cilantro, y para los más valientes, un Chutney de chile picante.",
+    "alergenos" : ["Frutos de cáscara", "Lacteos"]
+}

@@ -1,0 +1,7 @@
+{
+    "idPlato" : 14,
+    "nombre" : "Té negro Darjeeling",
+    "imagen" : "./assets/images/teCarta.jpg",
+    "precio" : 3.00,
+    "leche" : ["Normal", "Sin lactosa", "Avena", "Soja"]
+}

@@ -1,3 +1,102 @@
 <div
-  class="custom-orange-color bg-custom-dark-color montserrat-text text-center pt-5"
-></div>
+  class="custom-orange-color bg-custom-dark-color montserrat-text text-center pt-5 justify-content-center"
+>
+  <div class="d-flex justify-content-evenly col-8 offset-2 pb-5">
+    <button
+      class="btn custom-orange"
+      (click)="CambiaPlato(plato.idPlato - 1)"
+      routerLink="/carta/plato/{{ plato.idPlato - 1 }}"
+    >
+      Plato anterior
+    </button>
+    <button class="btn custom-orange" routerLink="/carta">
+      Volver a la carta
+    </button>
+    <button
+      class="btn custom-orange"
+      (click)="CambiaPlato(plato.idPlato + 1)"
+      routerLink="/carta/plato/{{ plato.idPlato + 1 }}"
+    >
+      Plato siguiente
+    </button>
+  </div>
+  <div class="col p-4 d-flex justify-content-center">
+    <div class="card h-100 mb-5" style="width: 20%">
+      <img src="{{ plato.imagen }}" class="card-img-top" alt="..." />
+      <div class="card-body bg-custom-dark-color">
+        <div class="col d-flex align-items-center border-bottom">
+          <h4 class="custom-orange-color card-title col-7 fw-bolder pe-2">
+            {{ plato.nombre }}
+          </h4>
+          <h4 class="custom-orange-color card-title col-5 rounded-pill border">
+            {{ plato.precio }}€
+          </h4>
+        </div>
+        <div class="card-text custom-orange-color p-3">
+          <p class="fs-5">{{ plato.descripcion }}</p>
+          @if (plato.alergenos!=undefined) {
+          <div class="bg-dark">
+            <p class="text-decoration-underline pt-1">ALERGENOS</p>
+            <div class="d-flex justify-content-center">
+              @for (alergeno of plato.alergenos; track $index) {
+              <p class="px-1">{{ alergeno }}</p>
+              }
+            </div>
+          </div>
+          } @if (plato.acompanyamiento!=undefined) {
+          <div class="bg-dark">
+            <div class="btn-group" role="group">
+              <button
+                type="button"
+                class="btn custom-orange dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Elige tu acompañamiento
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item">{{ plato.acompanyamiento[0] }}</a>
+                </li>
+                <li>
+                  <a class="dropdown-item">{{ plato.acompanyamiento[1] }}</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          } @if (plato.leche!=undefined) {
+          <div class="bg-dark">
+            <div class="btn-group" role="group">
+              <button
+                type="button"
+                class="btn custom-orange dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Elige la leche que deseas.
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item">{{ plato.leche[0] }}</a>
+                </li>
+                <li>
+                  <a class="dropdown-item">{{ plato.leche[1] }}</a>
+                </li>
+                <li>
+                  <a class="dropdown-item">{{ plato.leche[2] }}</a>
+                </li>
+                <li>
+                  <a class="dropdown-item">{{ plato.leche[3] }}</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          }
+        </div>
+      </div>
+      <div class="btn custom-orange btn border-top">
+        <h5 class="fw-bold">PEDIR</h5>
+      </div>
+    </div>
+  </div>
+</div>

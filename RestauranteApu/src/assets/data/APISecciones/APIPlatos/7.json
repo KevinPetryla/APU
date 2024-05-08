@@ -1,0 +1,9 @@
+{
+    "idPlato" : 7,
+    "nombre" : "Lamb Masala",
+    "imagen" : "./assets/images/lambMasalaCarta.jpg",
+    "precio" : 13.00,
+    "descripcion" : "Cordero marinado en yogur y especias Masala, cocinado en horno Tandoori y servido con almendra tostada machacada y cilantro fresco.",
+    "alergenos" : ["Gluten", "Lacteos", "Frutos de cáscara"],
+    "acompanyamiento" : ["Arroz Basmati", "Arroz Pilaf"]
+}

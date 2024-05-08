@@ -1,0 +1,8 @@
+{
+    "idPlato" : 5,
+    "nombre" : "Pan Naan",
+    "imagen" : "./assets/images/naanCarta.jpg",
+    "precio" : 3.00,
+    "descripcion" : "Pan Naan casero, pintado con nuestra mantequilla de ajo y cilantro fresco del día.",
+    "alergenos" : ["Gluten", "Lacteos"]
+}

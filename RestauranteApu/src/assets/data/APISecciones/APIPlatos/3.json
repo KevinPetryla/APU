@@ -1,0 +1,8 @@
+{
+    "idPlato" : 3,
+    "nombre" : "Balti de langostinos",
+    "imagen" : "./assets/images/baltiLangostinosCarta.jpg",
+    "precio" : 7.00,
+    "descripcion" : "Langostinos salteados en Wok con cebolla morada, junto a una crema picante de ají, tomate y leche de coco.",
+    "alergenos" : ["Marisco", "Lacteos", "Frutos de cáscara"]
+}

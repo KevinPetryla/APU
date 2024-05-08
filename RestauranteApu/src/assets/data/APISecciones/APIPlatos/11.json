@@ -1,0 +1,8 @@
+{
+    "idPlato" : 11,
+    "nombre" : "Kulfi de pistacho",
+    "imagen" : "./assets/images/kulfiCarta.jpg",
+    "precio" : 6.00,
+    "descripcion" : "Helado indio de pistacho con Kaju Katli, Yalebi y crema de café Chai.",
+    "alergenos" : ["Gluten", "Lacteos", "Frutos de cáscara"]
+}

@@ -1,0 +1,9 @@
+{
+    "idPlato" : 8,
+    "nombre" : "Butter Chicken",
+    "imagen" : "./assets/images/butterChickenCarta.jpg",
+    "precio" : 10.50,
+    "descripcion" : "Pollo macerado y sasado en horno Tandoori, bañado en una deliciosa salsa de mantequilla, puré de tomate y especias Garam Masala.",
+    "alergenos" : ["Gluten", "Lacteos"],
+    "acompanyamiento" : ["Arroz Basmati", "Arroz Pilaf"]
+}

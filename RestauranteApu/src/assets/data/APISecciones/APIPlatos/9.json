@@ -1,0 +1,9 @@
+{
+    "idPlato" : 9,
+    "nombre" : "Rape Mappas Curry",
+    "imagen" : "./assets/images/mapasCurryCarta.jpg",
+    "precio" : 13.00,
+    "descripcion" : "Rape estofado en un potente caldo a base de curry, cebolla y chile verde, con tomate fresco y leche de coco para terminar.",
+    "alergenos" : ["Gluten", "Lacteos", "Pescado", "Frutos de cáscara"],
+    "acompanyamiento" : ["Arroz Basmati", "Arroz Pilaf"]
+}

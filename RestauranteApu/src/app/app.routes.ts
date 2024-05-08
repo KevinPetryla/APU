@@ -57,6 +57,11 @@ export const routes: Routes = [
         title: "delivery",
         component: DeliveryComponent
     },
+    {
+        path: "carta/plato/:id",
+        title: 'Plato',
+        component: ProductoComponent
+    },
     { 
         path: "cart",
         title: "cart",

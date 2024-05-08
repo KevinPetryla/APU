@@ -1,0 +1,9 @@
+{
+    "idPlato" : 6,
+    "nombre" : "Paneer Korma",
+    "imagen" : "./assets/images/paneerCarta.jpg",
+    "precio" : 11.00,
+    "descripcion" : "Queso Paneer indio servido con una sabrosa salsa Korma de leche de coco y anacardos.",
+    "alergenos" : ["Lacteos", "Frutos de cáscara"],
+    "acompanyamiento" : ["Arroz Basmati", "Arroz Pilaf"]
+}

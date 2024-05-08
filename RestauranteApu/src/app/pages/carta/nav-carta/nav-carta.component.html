@@ -6,19 +6,19 @@
       <div class="collapse navbar-collapse justify-content-center">
         <ul class="navbar-nav text-center">
           <li class="nav-item">
-            <a class="nav-link active border-end border-black page-scroll" routerLink="/carta" fragment="entrantes">Entrantes</a>
+            <a class="nav-link active border-end border-black page-scroll" (click)="cambiarSeccion('Entrantes')" routerLink="/carta" fragment="Entrantes">Entrantes</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link active border-end border-black" routerLink="/carta" fragment="principales">Principales</a>
+            <a class="nav-link active border-end border-black" (click)="cambiarSeccion('Principales')" routerLink="/carta" fragment="Principales">Principales</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active border-end border-black" routerLink="/carta" fragment="postres">Postres</a>
+            <a class="nav-link active border-end border-black" (click)="cambiarSeccion('Postres')" routerLink="/carta" fragment="Postres">Postres</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active border-end border-black" routerLink="/carta" fragment="cafes">Café/té</a>
+            <a class="nav-link active border-end border-black" (click)="cambiarSeccion('Cafes')" routerLink="/carta" fragment="Cafes">Café/té</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active border-end border-black" routerLink="/carta" fragment="cocteles">Cocteles</a>
+            <a class="nav-link active border-end border-black" (click)="cambiarSeccion('Cocteles')" routerLink="/carta" fragment="Cocteles">Cocteles</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active border-black" routerLink="/carta" fragment="respedido">Resumen del pedido</a>

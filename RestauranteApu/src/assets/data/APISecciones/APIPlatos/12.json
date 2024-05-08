@@ -1,0 +1,8 @@
+{
+    "idPlato" : 12,
+    "nombre" : "Kheer",
+    "imagen" : "./assets/images/kheerCarta.jpg",
+    "precio" : 6.00,
+    "descripcion" : "Copa de Kheer con Gulab Jamun y crema de té de cardamomo con anacardos tostados machacados.",
+    "alergenos" : ["Gluten", "Lacteos", "Frutos de cáscara"]
+}

@@ -3,168 +3,168 @@
   "tituloSeccion" : "Cocteles",
   "platos": [
     {
-      "idPlato": "16",
+      "idPlato": 15,
       "nombre": "A1",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg",
       "precio": 6,
       "descripcion": "Un cóctel clásico con un toque de especias y un sabor audaz."
     },
     {
-      "idPlato": "17",
+      "idPlato": 16,
       "nombre": "ABC",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/tqpvqp1472668328.jpg",
       "precio": 7,
       "descripcion": "Una mezcla refrescante de almendra, bayas y cítricos."
     },
     {
-      "idPlato": "18",
+      "idPlato": 17,
       "nombre": "Ace",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/l3cd7f1504818306.jpg",
       "precio": 6.5,
       "descripcion": " Una bebida ligera y efervescente con un toque cítrico."
     },
     {
-      "idPlato": "19",
+      "idPlato": 18,
       "nombre": "ACID",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/xuxpxt1479209317.jpg",
       "precio": 6.5,
       "descripcion": "Un cóctel vibrante y ácido con una explosión de sabores."
     },
     {
-      "idPlato": "20",
+      "idPlato": 19,
       "nombre": "Adam",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/v0at4i1582478473.jpg",
       "precio": 8,
       "descripcion": "Una combinación suave de licor de manzana y especias."
     },
     {
-      "idPlato": "21",
+      "idPlato": 20,
       "nombre": "AT&T",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/rhhwmp1493067619.jpg",
       "precio": 6,
       "descripcion": "Un cóctel dulce y fuerte con notas de almendra y cítricos."
     },
     {
-      "idPlato": "22",
+      "idPlato": 21,
       "nombre": "A. J.",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/l74qo91582480316.jpg",
       "precio": 8,
       "descripcion": "Una opción refrescante con jugo de manzana y un toque de licor."
     },
     {
-      "idPlato": "23",
+      "idPlato": 22,
       "nombre": "Avalon",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/3k9qic1493068931.jpg",
       "precio": 6,
       "descripcion": "Un cóctel sofisticado con un equilibrio perfecto de dulzura y acidez."
     },
     {
-      "idPlato": "24",
+      "idPlato": 23,
       "nombre": "Apello",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/uptxtv1468876415.jpg",
       "precio": 7,
       "descripcion": "Una mezcla tropical con piña y coco, perfecta para una escapada."
     },
     {
-      "idPlato": "25",
+      "idPlato": 24,
       "nombre": "Affair",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/h5za6y1582477994.jpg",
       "precio": 6.5,
       "descripcion": "Una experiencia de sabor intrigante con una mezcla de frutas y licores exóticos."
     },
     {
-      "idPlato": "26",
+      "idPlato": 25,
       "nombre": "Abilene",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/smb2oe1582479072.jpg",
       "precio": 7,
       "descripcion": "Un cóctel ahumado con un toque de bourbon y jarabe de arce."
     },
     {
-      "idPlato": "27",
+      "idPlato": 26,
       "nombre": "Almeria",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/rwsyyu1483388181.jpg",
       "precio": 7,
       "descripcion": "Una bebida con inspiración mediterránea, refrescante y llena de sabor."
     },
     {
-      "idPlato": "28",
+      "idPlato": 27,
       "nombre": "Addison",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/yzva7x1504820300.jpg",
       "precio": 8,
       "descripcion": "Una combinación equilibrada de licores y jugos de frutas, perfecta para cualquier ocasión."
     },
     {
-      "idPlato": "29",
+      "idPlato": 28,
       "nombre": "Applecar",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/sbffau1504389764.jpg",
       "precio": 8,
       "descripcion": " Una variante del clásico Sidecar, con un toque de manzana fresca."
     },
     {
-      "idPlato": "30",
+      "idPlato": 29,
       "nombre": "Acapulco",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/il9e0r1582478841.jpg",
       "precio": 9,
       "descripcion": "Un cóctel tropical con jugo de piña y coco, ideal para relajarse bajo el sol."
     },
     {
-      "idPlato": "31",
+      "idPlato": 30,
       "nombre": "Affinity",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/wzdtnn1582477684.jpg",
       "precio": 7,
       "descripcion": " Una mezcla elegante de whisky escocés y vermú, con un toque de licor de hierbas."
     },
     {
-      "idPlato": "32",
+      "idPlato": 31,
       "nombre": "Aviation",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/trbplb1606855233.jpg",
       "precio": 8,
       "descripcion": "Una bebida clásica con gin, licor de violeta y limón, perfecta para los amantes de la ginebra."
     },
     {
-      "idPlato": "33",
+      "idPlato": 32,
       "nombre": "After sex",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/xrl66i1493068702.jpg",
       "precio": 8.5,
       "descripcion": " Una bebida dulce y afrutada con vodka y jugo de naranja, perfecta para disfrutar después de una noche especial."
     },
     {
-      "idPlato": "34",
+      "idPlato": 33,
       "nombre": "Applejack",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/sutyqp1479209062.jpg",
       "precio": 7,
       "descripcion": "Una opción reconfortante con licor de manzana y especias, ideal para los días fríos."
     },
     {
-      "idPlato": "35",
+      "idPlato": 34,
       "nombre": "Afterglow",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/vuquyv1468876052.jpg",
       "precio": 6,
       "descripcion": "Una bebida refrescante con jugo de naranja y granadina, para un brillo radiante."
     },
     {
-      "idPlato": "36",
+      "idPlato": 35,
       "nombre": "Afternoon",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/vyrurp1472667777.jpg",
       "precio": 9,
       "descripcion": "Una mezcla suave de té helado y vodka, perfecta para disfrutar en una tarde relajada."
     },
     {
-      "idPlato": "37",
+      "idPlato": 36,
       "nombre": "Alexander",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/0clus51606772388.jpg",
       "precio": 7,
       "descripcion": "Una bebida elegante con champagne y licor de naranja, para celebrar momentos especiales."
     },
     {
-      "idPlato": "38",
+      "idPlato": 37,
       "nombre": "Autodaf\u00e9",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/7dkf0i1487602928.jpg",
       "precio": 7.5,
       "descripcion": "Un cóctel ahumado y picante con tequila y jalapeño, para los amantes de la aventura."
     },
     {
-      "idPlato": "39",
+      "idPlato": 38,
       "nombre": "Allegheny",
       "imagen": "https://www.thecocktaildb.com/images/media/drink/uwvyts1483387934.jpg",
       "precio": 8,

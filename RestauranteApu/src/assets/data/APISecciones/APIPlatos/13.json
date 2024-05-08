@@ -1,0 +1,7 @@
+{
+    "idPlato" : 13,
+    "nombre" : "Café Monsooned Malabar",
+    "imagen" : "./assets/images/cafeCarta.jpg",
+    "precio" : 3.00,
+    "leche" : ["Normal", "Sin lactosa", "Avena", "Soja"]
+}

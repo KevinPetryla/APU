@@ -1,0 +1,8 @@
+{
+    "idPlato" : 4,
+    "nombre" : "Ensalada Kachumber",
+    "imagen" : "./assets/images/ensaladaCarta.jpg",
+    "precio" : 7.00,
+    "descripcion" : "Ensalada refrescante con pepino impregnado de tomate y lima sobre una crema de cebolla roja encurtida, y acabada con vinagreta de cilantro.",
+    "alergenos" : ["Lacteos"]
+}

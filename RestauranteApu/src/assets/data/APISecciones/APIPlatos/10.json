@@ -1,0 +1,8 @@
+{
+    "idPlato" : 10,
+    "nombre" : "Sorbete Chai Masala",
+    "imagen" : "./assets/images/sorbeteCarta.jpg",
+    "precio" : 6.00,
+    "descripcion" : "Refrescante sorbete de diferentes especias, té y hiervas aromáticas , con ligeros toques de miel y almendras",
+    "alergenos" : ["Frutos de cáscara"]
+}
