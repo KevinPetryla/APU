@@ -1,0 +1,12 @@
+.dropdown-menu.bg-custom-black{
+    background-color: #1E1E1E;
+}
+
+.dropdown-item.custom-orange{
+    color: #D3AC34;
+}
+
+.dropdown-item.custom-orange:hover{
+    background-color: #D3AC34;
+    color: #1E1E1E;
+}

@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute, Router, RouterLink, RouterLinkActive } from '@angular/router';
+import { RouterLink } from '@angular/router';
 import { PlatoInterface } from '../../interfaces/plato-interface';
 import { APICartaService } from '../../services/apicarta.service';
 import { NavCartaComponent } from '../../../pages/carta/nav-carta/nav-carta.component';

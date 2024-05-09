@@ -1,3 +1,4 @@
+<app-nav-carta></app-nav-carta>
 <div
   class="custom-orange-color bg-custom-dark-color montserrat-text text-center pt-5 justify-content-center"
 >
@@ -45,7 +46,7 @@
           </div>
           } @if (plato.acompanyamiento!=undefined) {
           <div class="bg-dark">
-            <div class="btn-group" role="group">
+            <div class="btn-group dropdown-center" role="group">
               <button
                 type="button"
                 class="btn custom-orange dropdown-toggle"
@@ -54,19 +55,19 @@
               >
                 Elige tu acompañamiento
               </button>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu bg-custom-black">
                 <li>
-                  <a class="dropdown-item">{{ plato.acompanyamiento[0] }}</a>
+                  <a class="dropdown-item custom-orange">{{ plato.acompanyamiento[0] }}</a>
                 </li>
                 <li>
-                  <a class="dropdown-item">{{ plato.acompanyamiento[1] }}</a>
+                  <a class="dropdown-item custom-orange">{{ plato.acompanyamiento[1] }}</a>
                 </li>
               </ul>
             </div>
           </div>
           } @if (plato.leche!=undefined) {
           <div class="bg-dark">
-            <div class="btn-group" role="group">
+            <div class="btn-group dropdown-center" role="group">
               <button
                 type="button"
                 class="btn custom-orange dropdown-toggle"
@@ -77,16 +78,16 @@
               </button>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item">{{ plato.leche[0] }}</a>
+                  <a class="dropdown-item custom-orange">{{ plato.leche[0] }}</a>
                 </li>
                 <li>
-                  <a class="dropdown-item">{{ plato.leche[1] }}</a>
+                  <a class="dropdown-item custom-orange">{{ plato.leche[1] }}</a>
                 </li>
                 <li>
-                  <a class="dropdown-item">{{ plato.leche[2] }}</a>
+                  <a class="dropdown-item custom-orange">{{ plato.leche[2] }}</a>
                 </li>
                 <li>
-                  <a class="dropdown-item">{{ plato.leche[3] }}</a>
+                  <a class="dropdown-item custom-orange">{{ plato.leche[3] }}</a>
                 </li>
               </ul>
             </div>
