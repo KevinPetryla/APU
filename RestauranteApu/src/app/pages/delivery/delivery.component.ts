@@ -5,11 +5,14 @@ import { PlatoServiceService } from '../../shared/services/plato-service.service
 import { CartaInterface, Plato } from '../../shared/interfaces/carta-interface';
 import { Pedido } from '../../shared/interfaces/pedido';
 import { NavCartaComponent } from '../carta/nav-carta/nav-carta.component';
+import { APICartaService } from '../../shared/services/apicarta.service';
+import { SeccionInterface } from '../../shared/interfaces/seccion-interface';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-delivery',
   standalone: true,
-  imports: [ NavCartaComponent],
+  imports: [ NavCartaComponent, RouterLink],
   templateUrl: './delivery.component.html',
   styleUrl: './delivery.component.css'
 })
