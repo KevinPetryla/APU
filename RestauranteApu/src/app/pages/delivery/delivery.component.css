@@ -9,3 +9,9 @@
     justify-content: center;
     text-align: center;
 }
+#card{
+    cursor: pointer;
+}
+#card:hover{
+    box-shadow: inset 5px 5px #d3a933, inset -5px -5px #d3a933;
+}

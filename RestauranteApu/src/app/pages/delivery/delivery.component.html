@@ -8,11 +8,11 @@
     <div id={{carta.tituloSeccion}}></div>
     <h1 class="pb-4 cinzel-text">{{ carta.tituloSeccion }}</h1>
     <div
-      class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly"
+      class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 justify-content-evenly"
       style="width: 80%"
     >
       @for (plato of carta.platos; track plato) {
-      <div class="col p-4">
+      <div class="col p-4 active"  (click)="sendData(plato.idPlato)" routerLink="/plato/{{plato.idPlato}}" id="card" >
         <div class="card h-100">
           <img src="{{ plato.imagen }}" class="card-img-top" alt="..." />
           <div class="card-body bg-custom-dark-color">
@@ -31,7 +31,7 @@
             </p>
           </div>
           <div
-            class="btn custom-orange btn border-top"(click)="sendData(plato.idPlato)" routerLink="/plato/{{plato.idPlato}}" 
+            class="btn custom-orange btn border-top" 
           >
             <h5 class="fw-bold" >PEDIR</h5>
           </div>
@@ -40,8 +40,9 @@
 
       }
     </div>
-<div class="row-8 justify-content-center" id="respedido">
+<div class="row-8 justify-content-center p-6" id="respedido">
  <button class="btn custom-orange btn border-top" routerLink="/cart">IR AL CARRITO</button>
 </div>
 
 </div>
+<br>
