@@ -4,14 +4,14 @@ import { CocktailServiceService } from '../../shared/services/cocktail-service.s
 import { PlatoServiceService } from '../../shared/services/plato-service.service';
 import { CartaInterface, Plato } from '../../shared/interfaces/carta-interface';
 import { Pedido } from '../../shared/interfaces/pedido';
-import { NavCartaComponent } from '../carta/nav-carta/nav-carta.component';
+import { NavCartaComponent } from '../../shared/components/nav-carta/nav-carta.component';
 
 @Component({
   selector: 'app-delivery',
   standalone: true,
-  imports: [ NavCartaComponent],
+  imports: [NavCartaComponent],
   templateUrl: './delivery.component.html',
-  styleUrl: './delivery.component.css'
+  styleUrl: './delivery.component.css',
 })
 export class DeliveryComponent implements OnInit {
   cocteles: CoctelesInterface = { drinks: [] };
@@ -63,4 +63,3 @@ export class DeliveryComponent implements OnInit {
     this.listaPlatos.pop();
   }
 }
-
