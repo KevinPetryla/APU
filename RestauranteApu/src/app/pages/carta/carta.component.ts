@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NavCartaComponent } from './nav-carta/nav-carta.component';
+import { NavCartaComponent } from '../../shared/components/nav-carta/nav-carta.component';
 import { RouterLink } from '@angular/router';
 import { APICartaService } from '../../shared/services/apicarta.service';
 import { SeccionInterface } from '../../shared/interfaces/seccion-interface';
@@ -13,19 +13,17 @@ import { SeccionInterface } from '../../shared/interfaces/seccion-interface';
 })
 export class CartaComponent implements OnInit {
   carta!: SeccionInterface;
-  idPlato !: number;
+  idPlato!: number;
 
-  constructor(
-    private dataPlatos: APICartaService
-  ) {}
+  constructor(private dataPlatos: APICartaService) {}
 
   ngOnInit(): void {
     this.loadData('Entrantes');
   }
 
-  sendData(idPlato : number){
+  sendData(idPlato: number) {
     this.idPlato = idPlato;
-    this.dataPlatos.sendPlato(this.idPlato)
+    this.dataPlatos.sendPlato(this.idPlato);
   }
 
   loadData(seccion: string) {
@@ -38,8 +36,8 @@ export class CartaComponent implements OnInit {
       },
       complete: () => {
         console.log('Completed');
-      }
-  });
+      },
+    });
   }
 
   cambiarSeccion(seccion: string) {

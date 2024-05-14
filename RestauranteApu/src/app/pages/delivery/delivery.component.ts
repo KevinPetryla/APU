@@ -4,7 +4,7 @@ import { CocktailServiceService } from '../../shared/services/cocktail-service.s
 import { PlatoServiceService } from '../../shared/services/plato-service.service';
 import { CartaInterface, Plato } from '../../shared/interfaces/carta-interface';
 import { Pedido } from '../../shared/interfaces/pedido';
-import { NavCartaComponent } from '../carta/nav-carta/nav-carta.component';
+import { NavCartaComponent } from '../../shared/components/nav-carta/nav-carta.component';
 import { APICartaService } from '../../shared/services/apicarta.service';
 import { SeccionInterface } from '../../shared/interfaces/seccion-interface';
 import { RouterLink } from '@angular/router';
@@ -14,7 +14,7 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [ NavCartaComponent, RouterLink],
   templateUrl: './delivery.component.html',
-  styleUrl: './delivery.component.css'
+  styleUrl: './delivery.component.css',
 })
 export class DeliveryComponent implements OnInit {
   cocteles: CoctelesInterface = { drinks: [] };
@@ -66,4 +66,3 @@ export class DeliveryComponent implements OnInit {
     this.listaPlatos.pop();
   }
 }
-
