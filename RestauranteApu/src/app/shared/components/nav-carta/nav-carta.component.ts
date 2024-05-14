@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
-import { Route, RouterLink } from '@angular/router';
+import {RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-nav-carta',

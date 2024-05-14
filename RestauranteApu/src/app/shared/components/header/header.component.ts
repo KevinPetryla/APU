@@ -1,6 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { CocktailServiceService } from '../../services/cocktail-service.service';
-import { CoctelesInterface } from '../../interfaces/cocteles-interface';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',

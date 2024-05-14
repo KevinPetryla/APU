@@ -1,9 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { CoctelesInterface } from '../../shared/interfaces/cocteles-interface';
-import { CocktailServiceService } from '../../shared/services/cocktail-service.service';
-import { PlatoServiceService } from '../../shared/services/plato-service.service';
-import { CartaInterface, Plato } from '../../shared/interfaces/carta-interface';
-import { Pedido } from '../../shared/interfaces/pedido';
 import { NavCartaComponent } from '../../shared/components/nav-carta/nav-carta.component';
 import { APICartaService } from '../../shared/services/apicarta.service';
 import { SeccionInterface } from '../../shared/interfaces/seccion-interface';
