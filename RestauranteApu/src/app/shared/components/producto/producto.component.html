@@ -1,21 +1,18 @@
 <div
   class="custom-orange-color bg-custom-dark-color montserrat-text text-center pt-5 justify-content-center"
 >
-  <div class="d-flex justify-content-evenly col-8 offset-2 pb-5">
+  <div class="d-flex justify-content-center col-8 offset-2 pb-5 gap-lg-5">
     <button
-      class="btn custom-orange"
+      class="btn custom-orange px-3 mx-5"
       (click)="CambiaPlato(plato.idPlato - 1)"
-      routerLink="/carta/plato/{{ plato.idPlato - 1 }}"
+      routerLink="/plato/{{ plato.idPlato - 1 }}"
     >
       Plato anterior
     </button>
-    <button class="btn custom-orange" routerLink="/carta">
-      Volver a la carta
-    </button>
     <button
-      class="btn custom-orange"
+      class="btn custom-orange px-3 mx-5"
       (click)="CambiaPlato(plato.idPlato + 1)"
-      routerLink="/carta/plato/{{ plato.idPlato + 1 }}"
+      routerLink="/plato/{{ plato.idPlato + 1 }}"
     >
       Plato siguiente
     </button>

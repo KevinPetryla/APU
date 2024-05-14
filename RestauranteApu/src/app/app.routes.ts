@@ -58,7 +58,7 @@ export const routes: Routes = [
         component: DeliveryComponent
     },
     {
-        path: "carta/plato/:id",
+        path: "plato/:id",
         title: 'Plato',
         component: ProductoComponent
     },
