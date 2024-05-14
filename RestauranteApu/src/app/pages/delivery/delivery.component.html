@@ -1,46 +1,47 @@
-<div class="container-fluid">
-    <div class="row row-cols-1 justify-content-center ">
-        @for (seccion of carta.secciones; track $index) {
-            <div class="row justify-content-center cinzel-text" id="title">
-                <h1 >{{ seccion.tituloSeccion }}</h1>
-            </div>
-       
-        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 justify-content-evenly"
-          style="width: 70%" >
-          @for (plato of seccion.platos; track $index) {
-          <div class="col p-4">
-            <div class="card h-100">
-              <img src="{{ plato.imagen }}" class="card-img-top" alt="..." />
-              <div class="card-body bg-custom-dark-color">
-                <div class="col d-flex align-items-center border-bottom">
-                  <h4 class="custom-orange-color card-title col-7 fw-bolder pe-2">
-                    {{ plato.nombre }}
-                  </h4>
-                  <h4
-                    class="custom-orange-color card-title col-5 rounded-pill border"
-                  >
-                    {{ plato.precio }}€
-                  </h4>
-                </div>
-                <p class="card-text custom-orange-color fs-5 p-3">
-                  {{ plato.descripcion }}
-                </p>
-              </div>
-              <div
-                class="btn custom-orange btn border-top"
-                (click)="Add(plato.nombre, plato.precio)"
+<app-nav-carta class="sticky-top " (CambiarSeccionEvent)="cambiarSeccion($event)"></app-nav-carta>
+<div
+  class="custom-orange-color bg-custom-dark-color montserrat-text text-center pt-5"
+>
+
+
+  <div class="row row-cols-1 justify-content-center me-1">
+    <div id={{carta.tituloSeccion}}></div>
+    <h1 class="pb-4 cinzel-text">{{ carta.tituloSeccion }}</h1>
+    <div
+      class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly"
+      style="width: 80%"
+    >
+      @for (plato of carta.platos; track plato) {
+      <div class="col p-4">
+        <div class="card h-100">
+          <img src="{{ plato.imagen }}" class="card-img-top" alt="..." />
+          <div class="card-body bg-custom-dark-color">
+            <div class="col d-flex align-items-center border-bottom">
+              <h4 class="custom-orange-color card-title col-7 fw-bolder pe-2">
+                {{ plato.nombre }}
+              </h4>
+              <h4
+                class="custom-orange-color card-title col-5 rounded-pill border"
               >
-                <h5 class="fw-bold">AÑADIR AL CARRITO</h5>
-              </div>
+                {{ plato.precio }}€
+              </h4>
             </div>
+            <p class="card-text custom-orange-color fs-5 p-3">
+              {{ plato.descripcion }}
+            </p>
           </div>
-          }
+          <div
+            class="btn custom-orange btn border-top"(click)="sendData(plato.idPlato)" routerLink="plato/{{plato.idPlato}}" 
+          >
+            <h5 class="fw-bold" >PEDIR</h5>
+          </div>
         </div>
-        }
-        
       </div>
-    <div class="row-6 p-4 d-flex justify-content-center">
-        <button class="btn custom-orange " type="submit"> REVISAR MI PEDIDO Y PAGAR</button>
+
+      }
     </div>
-    </div>
-    
+<div class="row-8 justify-content-center" id="respedido">
+ <button class="btn custom-orange btn border-top" routerLink="/cart">IR AL CARRITO</button>
+</div>
+
+</div>
