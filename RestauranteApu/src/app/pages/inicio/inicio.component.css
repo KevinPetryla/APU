@@ -1,3 +1,7 @@
+*{
+  overflow-y: hidden;
+}
+
 .fondo{
  padding-bottom: 5%;
 }

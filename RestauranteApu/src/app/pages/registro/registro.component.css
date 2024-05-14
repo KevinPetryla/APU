@@ -1,3 +1,6 @@
+*{
+	overflow-y: hidden;
+}
 
 p{
     color:#000000

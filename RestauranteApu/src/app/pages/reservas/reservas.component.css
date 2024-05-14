@@ -1,3 +1,7 @@
+#paginaEntera{
+    min-height: 53vh;
+}
+
 .column-with-padding {
     padding-top: 70px; 
     padding-bottom: 50px;
