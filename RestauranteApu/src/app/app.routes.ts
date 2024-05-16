@@ -4,7 +4,6 @@ import { ReservasComponent } from './pages/reservas/reservas.component';
 import { IniciosesionComponent } from './pages/iniciosesion/iniciosesion.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { PageNotFoundComponentComponent } from './pages/page-not-found-component/page-not-found-component.component';
-import { Component } from '@angular/core';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { DeliveryComponent } from './pages/delivery/delivery.component';
 import { CartComponent } from './pages/cart/cart.component';

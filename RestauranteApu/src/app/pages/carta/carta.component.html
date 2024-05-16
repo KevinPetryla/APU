@@ -1,15 +1,14 @@
-<app-nav-carta class="sticky-top " (CambiarSeccionEvent)="cambiarSeccion($event)"></app-nav-carta>
+<app-nav-carta (CambiarSeccionEvent)="cambiarSeccion($event)"></app-nav-carta>
 <div
   class="custom-orange-color bg-custom-dark-color montserrat-text text-center pt-5"
 >
   <h1 class="display-4 pb-5 cinzel-text">Menú a la carta</h1>
 
-  <div class="row row-cols-1 justify-content-center me-1">
+  <div class="row row-cols-1 justify-content-center">
     <div id={{carta.tituloSeccion}}></div>
     <h1 class="pb-4 cinzel-text">{{ carta.tituloSeccion }}</h1>
     <div
-      class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly"
-      style="width: 80%"
+      class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 justify-content-evenly px-3 px-md-5"
     >
       @for (plato of carta.platos; track plato) {
       <div class="col p-4">
@@ -42,11 +41,11 @@
     </div>
 
 
-    <div>
-      <h1 class="m-5 p-5">RESUMEN DE PEDIDO</h1>
+    <div class="text-center">
+      <h1 class="mt-5 pt-5">RESUMEN DE PEDIDO</h1>
       <ul class="list-group list-group-flush">
       </ul>
-      <h1 class="btn custom-orange btn-lg fw-bold my-5">MANDAR PEDIDO</h1>
+      <h1 class="btn custom-orange btn-lg fw-bold my-5 ms-2">MANDAR PEDIDO</h1>
     </div>
   </div>
 </div>

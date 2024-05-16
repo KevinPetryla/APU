@@ -15,11 +15,15 @@ export class ProductoComponent implements OnInit {
   idPlato!: number;
   plato!: PlatoInterface;
 
-  constructor(private platoData: APICartaService) {}
+
+  constructor(private platoData: APICartaService) {
+  }
 
   ngOnInit(): void {
     this.loadData();
   }
+
+  
 
   loadData() {
     this.platoData.getPlato().subscribe({
@@ -44,4 +48,5 @@ export class ProductoComponent implements OnInit {
       this.loadData();
     }
   }
+  
 }

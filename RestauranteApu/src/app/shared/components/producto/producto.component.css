@@ -1,3 +1,8 @@
+.dropdown-container {
+    overflow-x: unset;
+    position: relative;
+}
+
 .dropdown-menu.bg-custom-black{
     background-color: #1E1E1E;
 }
@@ -9,4 +14,13 @@
 .dropdown-item.custom-orange:hover{
     background-color: #D3AC34;
     color: #1E1E1E;
+}
+
+#acomp{
+    padding-bottom: 100px;
+}
+
+#cafe{
+    padding-top: 20px;
+    padding-bottom: 180px;
 }
